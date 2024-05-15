@@ -17,8 +17,12 @@ flowchart TD
   xlsx1-->Dockerfile-xlsx["`Dockerfile-xlsx
     xlsx_to_sqlite.py`"]
   xlsx2-->Dockerfile-xlsx
-  Dockerfile-xlsx-->disc[[disc]]
-  Dockerfile-xlsx-->membership_raw[[membership_raw]]
+  Dockerfile-xlsx-->applications[[applications]]
+  Dockerfile-xlsx-->awards[[awards]]
+  subgraph SQLite1 [SQLite]
+    applications
+    awards
+  end
 ```
 
 ## Step 1: Turn .xlsx files into a SQLite database
