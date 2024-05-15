@@ -5,7 +5,7 @@ of the Nebraska Department of Economic Development.
 
 This repository is additional resources by Open/Nebraska volunteers.
 If you discover any errors, or want to request new features, please
-[create an Issue](https://github.com/opennebraska/ops-referral/issues).
+[create an Issue](https://github.com/opennebraska/nsorg/issues).
 
 This document intends to document all the recreation steps for running the
 analysis we performed, from scratch (.xlsx).
