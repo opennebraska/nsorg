@@ -138,12 +138,6 @@ df2["FundingAmount"] = df2["FundingAmount"].astype('float')
 print("Final dataframe:")
 print(df2.head())
 
-# Reverse their crosstab https://stackoverflow.com/questions/69550812/pandas-reverse-of-a-crosstab
-# s = df2.stack([0, 1, 2, 3, 4])
-# print("Our stack:")
-# print(s)
-# Uhh... ya, I can't figure this out. I'll just do it in Perl
-
 # Create a database table and write all the dataframe data into it
 df2.to_sql("awards", conn, if_exists="replace")
 

@@ -1,0 +1,14 @@
+# https://stackoverflow.com/a/44350277/4656035
+FROM python
+RUN pip install pandas
+RUN pip install matplotlib
+RUN pip install seaborn
+# RUN pip install dominate
+RUN pip install python-liquid
+RUN mkdir /home/report
+RUN mkdir /home/data
+
+# Mounted from local when we "docker run" so we don't have to "docker build" every time
+WORKDIR /home/data
+CMD python generate_website.py
+
