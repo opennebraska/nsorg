@@ -23,6 +23,9 @@ flowchart TD
     applications
     awards
   end
+  SQLite1-->Dockerfile-html["`Dockerfile-html
+    generate_website.py`"]
+  Dockerfile-html-->website
 ```
 
 ## Step 1: Turn .xlsx files into a SQLite database
