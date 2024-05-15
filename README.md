@@ -33,7 +33,7 @@ Locally we have a bunch of Pythons, and Pandas won't install, so let's use Docke
     docker build . --file Dockerfile-xlsx --tag pandas-xlsx
     docker run -it --mount type=bind,source="$(pwd)",target=/home/data pandas-xlsx
 
-Now we have a SQLite database containing sheet 0 of "Grant Application.xlsx".
+Now we have a SQLite database containing `Grant Application.xlsx`.
 
 ```
 sqlite3 nsorg.sqlite3
@@ -122,6 +122,37 @@ sqlite> SELECT QualifiedCensusTract, count(*) FROM applications GROUP BY 1;
 Adjacent to one or more QCTs|25
 Neither within or adjacent to the QCTs|6
 Within one or more QCTs|317
+```
+
+And our SQLite database contains `NSORG Awards Data.xlsx`:
+
+```
+sqlite> .schema awards
+CREATE TABLE IF NOT EXISTS "awards" (
+"index" INTEGER,
+  "Category" TEXT,
+  "ProposalName" TEXT,
+  "OrganizationName" TEXT,
+  "NSORGID" INTEGER,
+  "FundingAmount" REAL
+);
+CREATE INDEX "ix_awards_index"ON "awards" ("index");
+
+sqlite> select sum(FundingAmount) from awards;
+274420003.17
+
+sqlite> select Category, sum(FundingAmount) from awards GROUP BY 1;
+(blank)|0.0
+Arts/Social|19373000.0
+E&I|17810972.0
+FQHC|20000000.0
+HOF Museum|20000000.0
+Placemaking|116000000.0
+RAPID|13575711.17
+Recovery Housing|0.0
+SBSG|46027500.0
+Sports/Tourism|10950000.0
+YTWD|10682820.0
 ```
 
 ## Step 2: ...
