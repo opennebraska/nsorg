@@ -1,13 +1,11 @@
-# https://liquidjs.com/
-# import glob
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt   # https://pandas.pydata.org/docs/user_guide/visualization.html#basic-plotting-plot
 # For prettier plots: https://pandas.pydata.org/community/ecosystem.html
 import seaborn as sns  # https://seaborn.pydata.org
 import sqlite3
-# import { Liquid } from 'liquidjs';
-# var { Liquid } = require('liquidjs');
+# https://liquid.readthedocs.io/en/latest/
+# A Python implementation of Liquid, the safe customer-facing template language for flexible web apps.
 from liquid import Environment
 from liquid import FileSystemLoader
 
@@ -23,7 +21,10 @@ sqlstr = """
 df1 = pd.read_sql_query(sqlstr, con)
 print(df1.head())
 
-site = {"title": "howdy howdy howdy"}
+site = {
+  "title": "howdy howdy howdy",
+  "df1":   df1.to_html(index=False),
+}
 template = env.get_template("base.liquid")
 with open('_site/index.html', 'w') as f:
   f.write(

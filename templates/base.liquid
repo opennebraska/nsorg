@@ -34,18 +34,29 @@
   </head>
 
   <body class="dark:text-white dark:bg-black">
+
+    <h1>North & South Omaha Recovery Grant Program (NSORG)</h1>
+
+    <p><a href="https://opportunity.nebraska.gov/programs/recovery/nsorg/">Official NSORG website</a>
+    of the Nebraska Department of Economic Development.</p>
+
+    <p>This repository is additional resources by Open/Nebraska volunteers.
+    If you discover any errors in this website, or want to request new features, please
+    <a href="https://github.com/opennebraska/nsorg/issues">create an Issue</a>.</p>
+
     {{ content }}
+    {{ df1 }}
     
-  <script>
-    document.getElementById("toggleDarkMode").addEventListener("click", function() {
-      if (isDarkMode()) {
-        localStorage.theme = 'light'
-        document.documentElement.classList.remove('dark')
-      } else {
-        localStorage.theme = 'dark'
-        document.documentElement.classList.add('dark')
-      }
-    });
-  </script>
+    <script>
+      document.getElementById("toggleDarkMode").addEventListener("click", function() {
+        if (isDarkMode()) {
+          localStorage.theme = 'light'
+          document.documentElement.classList.remove('dark')
+        } else {
+          localStorage.theme = 'dark'
+          document.documentElement.classList.add('dark')
+        }
+      });
+    </script>
   </body>
 </html>
