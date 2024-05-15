@@ -1,10 +1,13 @@
 # North & South Omaha Recovery Grant Program (NSORG)
 
-If you discover any errors, or want to request new features, please
-[create an Issue](https://github.com/opennebraska/ops-referral/issues) in this
-respository.
+[Official NSORG website](https://opportunity.nebraska.gov/programs/recovery/nsorg/)
+of the Nebraska Department of Economic Development.
 
-The remainder of this document intends to show all the recreation steps for running the
+This repository is additional resources by Open/Nebraska volunteers.
+If you discover any errors, or want to request new features, please
+[create an Issue](https://github.com/opennebraska/ops-referral/issues).
+
+This document intends to document all the recreation steps for running the
 analysis we performed, from scratch (.xlsx).
 
 ## Overview
