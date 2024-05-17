@@ -23,7 +23,7 @@ print(df1.head())
 
 site = {
   "title": "howdy howdy howdy",
-  "df1":   df1.to_html(index=False),
+  "df1":   df1.to_html(index=False, table_id="myTable"),
 }
 template = env.get_template("base.liquid")
 with open('_site/index.html', 'w') as f:
