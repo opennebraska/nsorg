@@ -46,6 +46,7 @@ sqlstr = """
   GROUP BY 1;
 """
 df2 = pd.read_sql_query(sqlstr, con)
+df2['ID'] = df2['ID'].apply(lambda x: f'<a href="app/{x}.html" target="_blank">{x}</a>')
 print(df2.head())
 
 sqlstr = """
@@ -76,6 +77,8 @@ site = {
   "df2":   df2.to_html(
     index=False,
     float_format=money,
+    # Pandas: don't escape the hyperlinks we added above
+    escape=False,
     table_id="df2",
     classes=["display", "compact"]
   ),
