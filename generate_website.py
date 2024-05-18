@@ -14,8 +14,26 @@ env = Environment(loader=FileSystemLoader("templates/"))
 con = sqlite3.connect("nsorg.sqlite3")
 
 sqlstr = """
-  SELECT Category, sum(FundingAmount) Awarded
+  SELECT count(ID) Proposals, sum(TotalBudget) Budget, sum(LB1024GrantFundingRequest) Requested
+  FROM applications ap
+"""
+res = con.execute(sqlstr)
+proposal_count, total_budget, total_requested = res.fetchone()
+
+sqlstr = """
+  SELECT sum(FundingAmount) Awarded
   FROM awards
+"""
+res = con.execute(sqlstr)
+total_awarded = res.fetchone()[0]
+
+df1 = pd.read_sql_query(sqlstr, con)
+print(df1.head())
+
+sqlstr = """
+  SELECT Category, count(ID) Proposals, sum(TotalBudget) Budget, sum(LB1024GrantFundingRequest) Requested, sum(FundingAmount) Awarded
+  FROM applications ap
+  JOIN awards aw ON (aw.NSORGID = ap.ID)
   GROUP BY 1;
 """
 df1 = pd.read_sql_query(sqlstr, con)
@@ -52,6 +70,10 @@ site = {
     table_id="df2",
     classes=["display", "compact"]
   ),
+  "proposal_count": proposal_count,
+  "total_budget": total_budget,
+  "total_requested": total_requested,
+  "total_awarded": total_awarded,
 }
 template = env.get_template("base.liquid")
 with open('_site/index.html', 'w') as f:
