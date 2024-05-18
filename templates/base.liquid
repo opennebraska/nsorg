@@ -20,25 +20,33 @@
     <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.json" />
 
+    <!--
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     <link href="/assets/styles/tailwind.css" rel="stylesheet" />
     <link href="/assets/styles/index.css" rel="stylesheet" />
+    -->
 
     <!-- https://datatables.net/ -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css" />
     <script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
     <script>
-      const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
-      if (isDarkMode()) {
-        document.documentElement.classList.add('dark')
-      } else {
-        document.documentElement.classList.remove('dark')
-      }
+      // const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      // if (isDarkMode()) {
+      //   document.documentElement.classList.add('dark')
+      // } else {
+      //   document.documentElement.classList.remove('dark')
+      //}
 
       // https://datatables.net/
       $(document).ready( function () {
-        $('#myTable').DataTable();
+        $('#myTable').DataTable() // '#myTable', {
+          // none of this works? If it's possible to just draw tables that are only as
+          // wide as they need to be, I have no idea how.
+          // autoWidth: false,  // https://datatables.net/reference/option/autoWidth
+          // columnDefs: [{width: 5, targets: 0}],
+          //fixedColumns: true,
+        // });
       } );
     </script>
 
@@ -58,6 +66,7 @@
     {{ content }}
     {{ df1 }}
     
+    <!--
     <script>
       document.getElementById("toggleDarkMode").addEventListener("click", function() {
         if (isDarkMode()) {
@@ -69,5 +78,6 @@
         }
       });
     </script>
+    -->
   </body>
 </html>

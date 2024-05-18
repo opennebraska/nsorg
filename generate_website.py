@@ -23,7 +23,13 @@ print(df1.head())
 
 site = {
   "title": "howdy howdy howdy",
-  "df1":   df1.to_html(index=False, table_id="myTable"),
+  "df1":   df1.to_html(
+    # Pandas: don't show column of row number (0,1,2,...)
+    index=False,
+    # https://datatables.net/manual/styling/classes#Table-classes
+    table_id="myTable",
+    classes=["display", "compact"]
+  ),
 }
 template = env.get_template("base.liquid")
 with open('_site/index.html', 'w') as f:
