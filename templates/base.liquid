@@ -40,7 +40,11 @@
 
       // https://datatables.net/
       $(document).ready( function () {
-        $('#df1').DataTable()
+        $('#df1').DataTable({
+          paging: false,  // https://datatables.net/reference/option/paging
+          searching: false,
+          info: false,
+        });
         $('#df2').DataTable() // '#myTable', {
           // none of this works? If it's possible to just draw tables that are only as
           // wide as they need to be, I have no idea how.

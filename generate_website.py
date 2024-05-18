@@ -14,7 +14,7 @@ env = Environment(loader=FileSystemLoader("templates/"))
 con = sqlite3.connect("nsorg.sqlite3")
 
 sqlstr = """
-  SELECT Category, sum(FundingAmount)
+  SELECT Category, sum(FundingAmount) Awarded
   FROM awards
   GROUP BY 1;
 """
@@ -22,7 +22,7 @@ df1 = pd.read_sql_query(sqlstr, con)
 print(df1.head())
 
 sqlstr = """
-  SELECT ID, Category, OrgName, ProposalTitle, TotalBudget, LB1024GrantFundingRequest, sum(FundingAmount)
+  SELECT ID, Category, OrgName Organization, ProposalTitle Title, TotalBudget Budget, LB1024GrantFundingRequest Requested, sum(FundingAmount) Awarded
   FROM applications ap
   JOIN awards aw ON (aw.NSORGID = ap.ID)
   GROUP BY 1;
@@ -30,20 +30,25 @@ sqlstr = """
 df2 = pd.read_sql_query(sqlstr, con)
 print(df2.head())
 
+# Formatters for Pandas to_html() https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_html.html
+money = lambda x: '${:,.0f}'.format(x)
+make_zero_empty = lambda x: '{0:.0f}'.format(x) if x > 0 else ''
+make_zero_empty_two_digits = lambda x: '{0:.2f}'.format(x) if x > 0 else ''
 
 site = {
   "title": "howdy howdy howdy",
   "df1":   df1.to_html(
     # Pandas: don't show column of row number (0,1,2,...)
     index=False,
-    # https://datatables.net/manual/styling/classes#Table-classes
+    # Pandas: format our floats
+    float_format=money,
+    # Datatables optionals: https://datatables.net/manual/styling/classes#Table-classes
     table_id="df1",
     classes=["display", "compact"]
   ),
   "df2":   df2.to_html(
-    # Pandas: don't show column of row number (0,1,2,...)
     index=False,
-    # https://datatables.net/manual/styling/classes#Table-classes
+    float_format=money,
     table_id="df2",
     classes=["display", "compact"]
   ),
