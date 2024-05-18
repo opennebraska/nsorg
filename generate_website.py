@@ -48,10 +48,12 @@ sqlstr = """
 df2 = pd.read_sql_query(sqlstr, con)
 print(df2.head())
 
+
 # Formatters for Pandas to_html() https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_html.html
-money = lambda x: '${:,.0f}'.format(x)
-make_zero_empty = lambda x: '{0:.0f}'.format(x) if x > 0 else ''
-make_zero_empty_two_digits = lambda x: '{0:.2f}'.format(x) if x > 0 else ''
+def money(x): return '${:,.0f}'.format(x)
+def make_zero_empty(x): return '{0:.0f}'.format(x) if x > 0 else ''
+def make_zero_empty_two_digits(x): return '{0:.2f}'.format(x) if x > 0 else ''
+
 
 site = {
   "title": "howdy howdy howdy",
@@ -70,10 +72,10 @@ site = {
     table_id="df2",
     classes=["display", "compact"]
   ),
-  "proposal_count": proposal_count,
-  "total_budget": total_budget,
-  "total_requested": total_requested,
-  "total_awarded": total_awarded,
+  "proposal_count":  proposal_count,
+  "total_budget":    money(total_budget),
+  "total_requested": money(total_requested),
+  "total_awarded":   money(total_awarded),
 }
 template = env.get_template("base.liquid")
 with open('_site/index.html', 'w') as f:
