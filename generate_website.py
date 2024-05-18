@@ -48,6 +48,13 @@ sqlstr = """
 df2 = pd.read_sql_query(sqlstr, con)
 print(df2.head())
 
+sqlstr = """
+  SELECT *
+  FROM applications
+"""
+df100 = pd.read_sql_query(sqlstr, con)
+print(df100.head())
+
 
 # Formatters for Pandas to_html() https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_html.html
 def money(x): return '${:,.0f}'.format(x)
@@ -56,7 +63,7 @@ def make_zero_empty_two_digits(x): return '{0:.2f}'.format(x) if x > 0 else ''
 
 
 site = {
-  "title": "howdy howdy howdy",
+  "title": "Open/Nebraska: North & South Omaha Recovery Grant Program (NSORG)",
   "df1":   df1.to_html(
     # Pandas: don't show column of row number (0,1,2,...)
     index=False,
@@ -82,6 +89,23 @@ with open('_site/index.html', 'w') as f:
   f.write(
     template.render(site)
   )
+
+site = {
+  "title": site['title'],
+}
+template = env.get_template("application.liquid")
+for index, row in df100.iterrows():
+  html_file = '_site/app/%s.html' % row['ID']
+  # print(row)
+  site['row'] = row
+  row_dict = row.to_dict()
+  # Python Liquid can't handle dicts? So flatten to a list:
+  site['row_items'] = [(key, value) for key, value in row_dict.items()]
+  with open(html_file, 'w') as f:
+    f.write(
+      template.render(site)
+    )
+
 
 # sns_plot = sns.barplot(data=df1, x="students", y="RaceEthnicity")
 # plt.savefig('d1.png', bbox_inches='tight')
