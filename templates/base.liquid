@@ -40,7 +40,8 @@
 
       // https://datatables.net/
       $(document).ready( function () {
-        $('#myTable').DataTable() // '#myTable', {
+        $('#df1').DataTable()
+        $('#df2').DataTable() // '#myTable', {
           // none of this works? If it's possible to just draw tables that are only as
           // wide as they need to be, I have no idea how.
           // autoWidth: false,  // https://datatables.net/reference/option/autoWidth
@@ -63,9 +64,12 @@
     If you discover any errors in this website, or want to request new features, please
     <a href="https://github.com/opennebraska/nsorg/issues">create an Issue</a>.</p>
 
-    {{ content }}
+    <h2>Awards by Category</h2>
     {{ df1 }}
     
+    <h2>All Proposals</h2>
+    {{ df2 }}
+
     <!--
     <script>
       document.getElementById("toggleDarkMode").addEventListener("click", function() {

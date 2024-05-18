@@ -21,13 +21,30 @@ sqlstr = """
 df1 = pd.read_sql_query(sqlstr, con)
 print(df1.head())
 
+sqlstr = """
+  SELECT ID, Category, OrgName, ProposalTitle, TotalBudget, LB1024GrantFundingRequest, sum(FundingAmount)
+  FROM applications ap
+  JOIN awards aw ON (aw.NSORGID = ap.ID)
+  GROUP BY 1;
+"""
+df2 = pd.read_sql_query(sqlstr, con)
+print(df2.head())
+
+
 site = {
   "title": "howdy howdy howdy",
   "df1":   df1.to_html(
     # Pandas: don't show column of row number (0,1,2,...)
     index=False,
     # https://datatables.net/manual/styling/classes#Table-classes
-    table_id="myTable",
+    table_id="df1",
+    classes=["display", "compact"]
+  ),
+  "df2":   df2.to_html(
+    # Pandas: don't show column of row number (0,1,2,...)
+    index=False,
+    # https://datatables.net/manual/styling/classes#Table-classes
+    table_id="df2",
     classes=["display", "compact"]
   ),
 }
