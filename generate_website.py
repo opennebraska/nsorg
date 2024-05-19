@@ -59,10 +59,12 @@ df2['ID'] = df2['ID'].apply(lambda x: f'<a href="app/{x}.html" target="_blank">{
 print(df2.head())
 
 sqlstr = """
-  SELECT NSORGID,
-    CASE WHEN FundingAmount <= 50000 THEN FundingAmount ELSE 0 END AS low,
-    CASE WHEN FundingAmount > 50000 AND FundingAmount < 1000000 THEN FundingAmount ELSE 0 END AS medium,
-    CASE WHEN FundingAmount >= 1000000 THEN FundingAmount ELSE 0 END AS high
+  SELECT NSORGID, FundingAmount,
+    CASE
+      WHEN FundingAmount <= 500000 THEN 'low'
+      WHEN FundingAmount > 500000 AND FundingAmount < 10000000 THEN 'medium'
+      ELSE 'high'
+    END AS category
   FROM awards
   WHERE FundingAmount > 0;
 """
@@ -73,7 +75,7 @@ print(df10.head())
 # pivot_table() is for pivoting with aggregation
 # https://pandas.pydata.org/docs/user_guide/reshaping.html#reshaping-and-pivot-tables
 # df10 = df10.pivot_table(index='NSORG', values=['low', 'medium', 'high']) # , columns=  values='count')
-df10 = df10.pivot(columns='NSORGID', index=['low', 'medium', 'high'], values=['low', 'medium', 'high'])
+df10 = df10.pivot(columns='NSORGID', index='category', values='FundingAmount')
 print(df10.head())
 # Sample DataFrame
 data = {
@@ -93,10 +95,10 @@ print(df.head())
 print("----------------------")
 
 # Set the index to Grant for easy plotting
-df10.set_index('NSORGID', inplace=True)
+# df10.set_index('NSORGID', inplace=True)
 
 # Plotting the stacked bar chart
-ax = df10.plot(kind='bar', stacked=True, figsize=(10, 7))  # , colormap='viridis')
+ax = df10.plot(kind='bar', stacked=True, figsize=(10, 7), legend=False)  # , colormap='viridis')
 
 # Add title and labels
 plt.title("Stacked Bar Chart of Awards by Award Size")
