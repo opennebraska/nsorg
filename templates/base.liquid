@@ -32,14 +32,21 @@
           searching: false,
           info: false,
         });
-        $('#df2').DataTable() // '#myTable', {
+        $('#df2').DataTable(); // '#myTable', {
           // none of this works? If it's possible to just draw tables that are only as
           // wide as they need to be, I have no idea how.
           // autoWidth: false,  // https://datatables.net/reference/option/autoWidth
           // columnDefs: [{width: 5, targets: 0}],
           //fixedColumns: true,
         // });
-      } );
+
+        // Nah, the fancy table looks worse:
+        // $('#df10').DataTable({
+        //   paging: false,
+        //   searching: false,
+        //   info: false,
+        // });
+      });
     </script>
 
   </head>
@@ -57,13 +64,31 @@
     If you discover any errors on this website, or want to request new features, please
     <a href="https://github.com/opennebraska/nsorg/issues">create an Issue</a>.</p>
 
-    <p>{{proposal_count}} proposals were submitted for project budgets totalling <b>{{total_budget}}</b>.
-    For those proposals, <b>{{total_requested}}</b> was requested. <b>{{total_awarded}}</b> was awarded.</p>
+    <p>
+      <b>{{proposal_count}}</b> proposals were submitted for project budgets totalling <b>{{total_budget}}</b>.
+      For those proposals, <b>{{total_requested}}</b> was requested. <b>{{total_awarded}}</b> was awarded.
+      <b>{{proposals_awarded_0}}</b> proposals were awarded $0.
+    </p>
 
     <h2>Awards by Category</h2>
     {{ df1 }}
     
     <h2>All Proposals</h2>
     {{ df2 }}
+
+    <h2>Award Counts</h2>
+    <table>
+      <tr>
+        <td>
+          {{ df10 }}
+        </td>
+        <td>
+          <img src="d50-1.png">
+          <img src="d50-2.png">
+          <img src="d50-3.png">
+        </td>
+      </tr>
+    </table>
+
   </body>
 </html>

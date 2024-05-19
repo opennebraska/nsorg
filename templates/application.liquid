@@ -1,0 +1,7 @@
+
+<h1>{{row.OrgName}}: {{row.ProposalTitle}}</h2>
+
+{% for item in row_items %}
+  <h3>{{ item[0] }}</h3>
+  <p> {{ item[1] }}</p>
+{% endfor %}
