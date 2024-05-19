@@ -59,34 +59,52 @@ df2['ID'] = df2['ID'].apply(lambda x: f'<a href="app/{x}.html" target="_blank">{
 print(df2.head())
 
 sqlstr = """
-  SELECT FundingAmount Award, count(*) Count
+  SELECT NSORGID,
+    CASE WHEN FundingAmount <= 50000 THEN FundingAmount ELSE 0 END AS low,
+    CASE WHEN FundingAmount > 50000 AND FundingAmount < 1000000 THEN FundingAmount ELSE 0 END AS medium,
+    CASE WHEN FundingAmount >= 1000000 THEN FundingAmount ELSE 0 END AS high
   FROM awards
-  GROUP BY 1;
+  WHERE FundingAmount > 0;
 """
 df10 = pd.read_sql_query(sqlstr, con)
+print("----------------------")
+print(df10.head())
+# pivot() is for pivoting
+# pivot_table() is for pivoting with aggregation
+# https://pandas.pydata.org/docs/user_guide/reshaping.html#reshaping-and-pivot-tables
+# df10 = df10.pivot_table(index='NSORG', values=['low', 'medium', 'high']) # , columns=  values='count')
+df10 = df10.pivot(columns='NSORGID', index=['low', 'medium', 'high'], values=['low', 'medium', 'high'])
 print(df10.head())
 # Sample DataFrame
 data = {
-    "Grant": ["Grant A", "Grant B", "Grant C", "Grant D", "Grant E"],
-    "Category A": [10, 20, 30, 40, 50],
-    "Category B": [5, 15, 25, 35, 45],
-    "Category C": [20, 10, 30, 10, 20]
+    # "Grant": ['< $50,000', '<= $500,000', '> $500,000'],
+    1: [5, 0, 0],
+    2: [5, 0, 0],
+    3: [5, 0, 0],
+    4: [5, 0, 0],
+    5: [5, 0, 0],
+    6: [5, 0, 0],
+    10: [0, 15, 0],
+    11: [0, 15, 0],
+    20: [0, 0, 20],
 }
 df = pd.DataFrame(data)
+print(df.head())
+print("----------------------")
 
 # Set the index to Grant for easy plotting
-df.set_index('Grant', inplace=True)
+df10.set_index('NSORGID', inplace=True)
 
 # Plotting the stacked bar chart
-ax = df.plot(kind='bar', stacked=True, figsize=(10, 7), colormap='viridis')
+ax = df10.plot(kind='bar', stacked=True, figsize=(10, 7))  # , colormap='viridis')
 
 # Add title and labels
-plt.title("Stacked Bar Chart of Grants by Category")
-plt.xlabel("Grant")
+plt.title("Stacked Bar Chart of Awards by Award Size")
+plt.xlabel("Award")
 plt.ylabel("Value")
 
 # Display the legend
-plt.legend(title="Category", bbox_to_anchor=(1.05, 1), loc='upper left')
+# plt.legend(title="Category", bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.savefig('_site/d10.png', bbox_inches='tight')
 plt.clf()  # https://stackoverflow.com/questions/741877/how-do-i-tell-matplotlib-that-i-am-done-with-a-plot
 
