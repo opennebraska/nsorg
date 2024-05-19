@@ -58,58 +58,6 @@ df2 = pd.read_sql_query(sqlstr, con)
 df2['ID'] = df2['ID'].apply(lambda x: f'<a href="app/{x}.html" target="_blank">{x}</a>')
 print(df2.head())
 
-sqlstr = """
-  SELECT NSORGID, FundingAmount,
-    CASE
-      WHEN FundingAmount <= 500000 THEN 'low'
-      WHEN FundingAmount > 500000 AND FundingAmount < 10000000 THEN 'medium'
-      ELSE 'high'
-    END AS category
-  FROM awards
-  WHERE FundingAmount > 0;
-"""
-df10 = pd.read_sql_query(sqlstr, con)
-print("----------------------")
-print(df10.head())
-# pivot() is for pivoting
-# pivot_table() is for pivoting with aggregation
-# https://pandas.pydata.org/docs/user_guide/reshaping.html#reshaping-and-pivot-tables
-# df10 = df10.pivot_table(index='NSORG', values=['low', 'medium', 'high']) # , columns=  values='count')
-df10 = df10.pivot(columns='NSORGID', index='category', values='FundingAmount')
-print(df10.head())
-# Sample DataFrame
-data = {
-    # "Grant": ['< $50,000', '<= $500,000', '> $500,000'],
-    1: [5, 0, 0],
-    2: [5, 0, 0],
-    3: [5, 0, 0],
-    4: [5, 0, 0],
-    5: [5, 0, 0],
-    6: [5, 0, 0],
-    10: [0, 15, 0],
-    11: [0, 15, 0],
-    20: [0, 0, 20],
-}
-df = pd.DataFrame(data)
-print(df.head())
-print("----------------------")
-
-# Set the index to Grant for easy plotting
-# df10.set_index('NSORGID', inplace=True)
-
-# Plotting the stacked bar chart
-ax = df10.plot(kind='bar', stacked=True, figsize=(10, 7), legend=False)  # , colormap='viridis')
-
-# Add title and labels
-plt.title("Stacked Bar Chart of Awards by Award Size")
-plt.xlabel("Award")
-plt.ylabel("Value")
-
-# Display the legend
-# plt.legend(title="Category", bbox_to_anchor=(1.05, 1), loc='upper left')
-plt.savefig('_site/d10.png', bbox_inches='tight')
-plt.clf()  # https://stackoverflow.com/questions/741877/how-do-i-tell-matplotlib-that-i-am-done-with-a-plot
-
 
 # Formatters for Pandas to_html() https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_html.html
 def money(x): return '${:,.0f}'.format(x)
@@ -117,6 +65,57 @@ def money(x): return '${:,.0f}'.format(x)
 def money_formatter(x, pos): return '${:,.0f}'.format(x)
 def make_zero_empty(x): return '{0:.0f}'.format(x) if x > 0 else ''
 def make_zero_empty_two_digits(x): return '{0:.2f}'.format(x) if x > 0 else ''
+
+
+sqlstr = """
+  SELECT FundingAmount Award, count(*) Count, FundingAmount * count(*) AwardTotal
+  FROM awards
+  GROUP BY 1
+  ORDER BY 1;
+"""
+df10 = pd.read_sql_query(sqlstr, con)
+print(df10.head())
+
+sqlstr = """
+  SELECT NSORGID, FundingAmount,
+    CASE
+      WHEN FundingAmount <= 50000 THEN 'low'
+      WHEN FundingAmount > 50000 AND FundingAmount < 10000000 THEN 'medium'
+      ELSE 'high'
+    END AS category
+  FROM awards
+  WHERE FundingAmount > 0;
+"""
+df11 = pd.read_sql_query(sqlstr, con)
+print(df11.head())
+# pivot() is for pivoting
+# pivot_table() is for pivoting with aggregation
+# https://pandas.pydata.org/docs/user_guide/reshaping.html#reshaping-and-pivot-tables
+df11 = df11.pivot(columns='NSORGID', index='category', values='FundingAmount')
+print(df11.head())
+myplt = df11.plot(kind='bar', stacked=True, figsize=(10, 7), legend=False)  # , colormap='viridis')
+# Make the money look like money, not scientific notation.
+myplt.yaxis.set_major_formatter(FuncFormatter(money_formatter))
+plt.title("Awards by Award Size")
+plt.xlabel("Award")
+plt.xticks(rotation=0)
+# Set labels that are more useful than "high", "low", "medium"
+myplt.set_xticklabels([">= $10M", "<= $50K", '> \$50K < \$10M'])
+plt.ylabel("Value")
+# Thought it might be cool to add floating labels on top of each stacked bar.
+# Asked ChatGPT 4o how to do that, it spit this out:
+# Which would be kind of cool I guess if we want to spend the time to know the counts for each
+# stacked bar from the data somehow (we don't want to hard-code these?) TODO?
+# Add the label "foo" only above segments in "Award 18"
+# for p in myplt.patches:
+#     height = p.get_height()
+#     if height > 0 and pivot_df.index[int(p.get_x() + p.get_width() / 2)] == "Award 18":  # Only label segments in "Award 18"
+#         ax.annotate('foo',
+#                     (p.get_x() + p.get_width() / 2., p.get_y() + height),
+#                     ha='center', va='center', xytext=(0, 5),
+#                     textcoords='offset points')
+plt.savefig('_site/d11.png', bbox_inches='tight')
+plt.clf()  # https://stackoverflow.com/questions/741877/how-do-i-tell-matplotlib-that-i-am-done-with-a-plot
 
 
 sqlstr = """
@@ -138,10 +137,7 @@ sns_plot.set_xticklabels([''] * len(df50))
 plt.xlabel('Awards > $0')
 plt.ylabel('Award')
 plt.savefig('_site/d50-1.png', bbox_inches='tight')
-plt.clf()  # https://stackoverflow.com/questions/741877/how-do-i-tell-matplotlib-that-i-am-done-with-a-plot
-# raw(df1.to_html(index=False))
-# raw('<img src="d1.png">')
-
+plt.clf()
 sns_plot = sns.histplot(data=df50, x="Awarded", kde=True)  # , bins=range(10000), kde=False, discrete=True)
 # plt.title('Number of Employees by Salary')
 plt.xlabel('Award')
