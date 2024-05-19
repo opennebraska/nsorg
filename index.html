@@ -32,14 +32,21 @@
           searching: false,
           info: false,
         });
-        $('#df2').DataTable() // '#myTable', {
+        $('#df2').DataTable(); // '#myTable', {
           // none of this works? If it's possible to just draw tables that are only as
           // wide as they need to be, I have no idea how.
           // autoWidth: false,  // https://datatables.net/reference/option/autoWidth
           // columnDefs: [{width: 5, targets: 0}],
           //fixedColumns: true,
         // });
-      } );
+
+        // Nah, the fancy table looks worse:
+        // $('#df10').DataTable({
+        //   paging: false,
+        //   searching: false,
+        //   info: false,
+        // });
+      });
     </script>
 
   </head>
@@ -57,8 +64,11 @@
     If you discover any errors on this website, or want to request new features, please
     <a href="https://github.com/opennebraska/nsorg/issues">create an Issue</a>.</p>
 
-    <p>369 proposals were submitted for project budgets totalling <b>$6,349,869,073</b>.
-    For those proposals, <b>$3,708,790,538</b> was requested. <b>$274,420,003</b> was awarded.</p>
+    <p>
+      <b>369</b> proposals were submitted for project budgets totalling <b>$6,349,869,073</b>.
+      For those proposals, <b>$3,708,790,538</b> was requested. <b>$274,420,003</b> was awarded.
+      <b>241</b> proposals were awarded $0.
+    </p>
 
     <h2>Awards by Category</h2>
     <table border="1" class="dataframe display compact" id="df1">
@@ -3489,5 +3499,221 @@
     </tr>
   </tbody>
 </table>
+
+    <h2>Award Counts</h2>
+    <table>
+      <tr>
+        <td valign="top">
+          <table border="1" class="dataframe display compact" id="df10">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Award</th>
+      <th>Count</th>
+      <th>AwardTotal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$0</td>
+      <td>241</td>
+      <td>$0</td>
+    </tr>
+    <tr>
+      <td>$50,000</td>
+      <td>51</td>
+      <td>$2,550,000</td>
+    </tr>
+    <tr>
+      <td>$75,000</td>
+      <td>1</td>
+      <td>$75,000</td>
+    </tr>
+    <tr>
+      <td>$100,000</td>
+      <td>6</td>
+      <td>$600,000</td>
+    </tr>
+    <tr>
+      <td>$150,000</td>
+      <td>3</td>
+      <td>$450,000</td>
+    </tr>
+    <tr>
+      <td>$152,500</td>
+      <td>1</td>
+      <td>$152,500</td>
+    </tr>
+    <tr>
+      <td>$200,000</td>
+      <td>2</td>
+      <td>$400,000</td>
+    </tr>
+    <tr>
+      <td>$209,198</td>
+      <td>1</td>
+      <td>$209,198</td>
+    </tr>
+    <tr>
+      <td>$250,000</td>
+      <td>3</td>
+      <td>$750,000</td>
+    </tr>
+    <tr>
+      <td>$357,000</td>
+      <td>1</td>
+      <td>$357,000</td>
+    </tr>
+    <tr>
+      <td>$473,000</td>
+      <td>1</td>
+      <td>$473,000</td>
+    </tr>
+    <tr>
+      <td>$488,999</td>
+      <td>1</td>
+      <td>$488,999</td>
+    </tr>
+    <tr>
+      <td>$499,958</td>
+      <td>1</td>
+      <td>$499,958</td>
+    </tr>
+    <tr>
+      <td>$500,000</td>
+      <td>5</td>
+      <td>$2,500,000</td>
+    </tr>
+    <tr>
+      <td>$620,086</td>
+      <td>1</td>
+      <td>$620,086</td>
+    </tr>
+    <tr>
+      <td>$678,545</td>
+      <td>1</td>
+      <td>$678,545</td>
+    </tr>
+    <tr>
+      <td>$800,000</td>
+      <td>1</td>
+      <td>$800,000</td>
+    </tr>
+    <tr>
+      <td>$810,972</td>
+      <td>1</td>
+      <td>$810,972</td>
+    </tr>
+    <tr>
+      <td>$830,000</td>
+      <td>1</td>
+      <td>$830,000</td>
+    </tr>
+    <tr>
+      <td>$848,925</td>
+      <td>1</td>
+      <td>$848,925</td>
+    </tr>
+    <tr>
+      <td>$950,000</td>
+      <td>1</td>
+      <td>$950,000</td>
+    </tr>
+    <tr>
+      <td>$1,000,000</td>
+      <td>5</td>
+      <td>$5,000,000</td>
+    </tr>
+    <tr>
+      <td>$1,100,000</td>
+      <td>1</td>
+      <td>$1,100,000</td>
+    </tr>
+    <tr>
+      <td>$1,200,000</td>
+      <td>1</td>
+      <td>$1,200,000</td>
+    </tr>
+    <tr>
+      <td>$1,350,000</td>
+      <td>1</td>
+      <td>$1,350,000</td>
+    </tr>
+    <tr>
+      <td>$1,425,820</td>
+      <td>1</td>
+      <td>$1,425,820</td>
+    </tr>
+    <tr>
+      <td>$1,500,000</td>
+      <td>2</td>
+      <td>$3,000,000</td>
+    </tr>
+    <tr>
+      <td>$2,000,000</td>
+      <td>17</td>
+      <td>$34,000,000</td>
+    </tr>
+    <tr>
+      <td>$2,500,000</td>
+      <td>2</td>
+      <td>$5,000,000</td>
+    </tr>
+    <tr>
+      <td>$3,000,000</td>
+      <td>1</td>
+      <td>$3,000,000</td>
+    </tr>
+    <tr>
+      <td>$3,500,000</td>
+      <td>1</td>
+      <td>$3,500,000</td>
+    </tr>
+    <tr>
+      <td>$5,000,000</td>
+      <td>3</td>
+      <td>$15,000,000</td>
+    </tr>
+    <tr>
+      <td>$5,800,000</td>
+      <td>1</td>
+      <td>$5,800,000</td>
+    </tr>
+    <tr>
+      <td>$8,000,000</td>
+      <td>2</td>
+      <td>$16,000,000</td>
+    </tr>
+    <tr>
+      <td>$10,000,000</td>
+      <td>6</td>
+      <td>$60,000,000</td>
+    </tr>
+    <tr>
+      <td>$20,000,000</td>
+      <td>2</td>
+      <td>$40,000,000</td>
+    </tr>
+    <tr>
+      <td>$25,000,000</td>
+      <td>1</td>
+      <td>$25,000,000</td>
+    </tr>
+    <tr>
+      <td>$39,000,000</td>
+      <td>1</td>
+      <td>$39,000,000</td>
+    </tr>
+  </tbody>
+</table>
+        </td>
+        <td>
+          <img src="d11.png">
+          <img src="d50-3.png">
+          <img src="d50-1.png">
+          <img src="d50-2.png">
+        </td>
+      </tr>
+    </table>
+
   </body>
 </html>
