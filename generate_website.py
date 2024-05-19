@@ -65,6 +65,31 @@ sqlstr = """
 """
 df10 = pd.read_sql_query(sqlstr, con)
 print(df10.head())
+# Sample DataFrame
+data = {
+    "Grant": ["Grant A", "Grant B", "Grant C", "Grant D", "Grant E"],
+    "Category A": [10, 20, 30, 40, 50],
+    "Category B": [5, 15, 25, 35, 45],
+    "Category C": [20, 10, 30, 10, 20]
+}
+df = pd.DataFrame(data)
+
+# Set the index to Grant for easy plotting
+df.set_index('Grant', inplace=True)
+
+# Plotting the stacked bar chart
+ax = df.plot(kind='bar', stacked=True, figsize=(10, 7), colormap='viridis')
+
+# Add title and labels
+plt.title("Stacked Bar Chart of Grants by Category")
+plt.xlabel("Grant")
+plt.ylabel("Value")
+
+# Display the legend
+plt.legend(title="Category", bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.savefig('_site/d10.png', bbox_inches='tight')
+plt.clf()  # https://stackoverflow.com/questions/741877/how-do-i-tell-matplotlib-that-i-am-done-with-a-plot
+
 
 # Formatters for Pandas to_html() https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_html.html
 def money(x): return '${:,.0f}'.format(x)

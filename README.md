@@ -165,4 +165,14 @@ YTWD|10682820.0
     docker build . --file Dockerfile-html --tag pandas-html
     docker run -it --mount type=bind,source="$(pwd)",target=/home/data pandas-html
 
+## Dev Notes
+
+ChatGPT 4o prompt:
+
+Reset context.
+Use Python Pandas dataframes and Seaborn.
+Create a dataframe of 20 Awards of random US Dollar Amounts between $50,000 and $40,000,000.
+Categorize those Awards into 3 categories by US Dollar Amount: "< $100,000", "< $20,000,000", and "> $20,000,000".
+Generate a Seaside stacked bar chart where the X axis is Category and the Y axis is US Dollars.
+Show me that chart.
 
