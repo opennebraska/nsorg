@@ -10,9 +10,21 @@ pd.options.display.max_columns = None
 pd.options.display.max_rows = None
 pd.options.display.width = 1000
 
+pages = [
+  "13,14,15,16,17",     # First table
+  "18,19,20,21,22,23",  # Second table
+  "24,25,26,27",        # Third table
+  "28,29,30,31",        # Fourth table
+]
+pages = ','.join(pages)
+
 # Read tables from a PDF file
-tables = camelot.read_pdf("appendix_f.pdf", pages="all")
+tables = camelot.read_pdf("appendix_f.pdf", pages=pages)
 print("read_pdf() is done")
+i = 0
+for table in tables:
+  print(table.to_json(str(i) + ".json"))
+  i += 1
 
 # Convert each table into a DataFrame
 dataframes = [table.df for table in tables]
@@ -48,7 +60,7 @@ def drop_columns_that_dont_split(df):
   df_cleaned = df.drop(columns=columns_to_drop)
   # Rename columns to sequential integers so the now-missing columns don't leave gaps in the column IDs
   df_cleaned.columns = range(df_cleaned.shape[1])
-  print(df_cleaned)
+  # print(df_cleaned)
   return df_cleaned
 
 
@@ -138,31 +150,40 @@ def clean_and_concat_dataframes(begin, end):
 # The first actual dataframe we want to extract is 4..8 from the messy set of all dataframes extracted above
 # lol, can't even do this, because it's inconsistent:
 # df1 = clean_and_concat_dataframes(4, 8)
-df1 = dataframes[4]
+df1 = dataframes[0]
 df1 = df1.drop([0])  # Drop header row. PDF is a mess.
 df1 = drop_columns_that_dont_split(df1)
 df1 = split_and_expand(df1)
 # Success: we now have PDF page 13
 # Where is PDF page 14??
-this_df = dataframes[5]
+this_df = dataframes[1]
 this_df = this_df.drop([0])  # Drop header row. PDF is a mess.
 this_df = drop_columns_that_dont_split(this_df)
 this_df = split_and_expand(this_df)
 # Success: we now have PDF page 15 (fancy, this one has no header row)
 # Where is PDF page 16??
 df1 = pd.concat([df1, this_df])
-this_df = dataframes[6]
+this_df = dataframes[2]
 this_df = drop_columns_that_dont_split(this_df)
 this_df = split_and_expand(this_df)
 # Success: we now have PDF page 17
 df1 = pd.concat([df1, this_df])
 print(df1)
 
-# PDF page 18 (dataframe 7) begins the second set of tabular data:
-df2 = dataframes[7]
+# PDF page 18 (dataframe 3) begins the second set of tabular data:
+df2 = dataframes[3]
 df2 = df2.drop([0])  # Drop header row. PDF is a mess.
 df2 = drop_columns_that_dont_split(df2)
 print(df2)
+
+# Add a new row to ensure there's room to shift values down
+df.loc[len(df)] = [None] * df.shape[1]
+# Shift values in column 6 from row 33 down
+# df.loc[34:, 'Column6'] = df.loc[33:, 'Column6'].shift(1)
+df.iloc[30:, 4] = df.iloc[29:, 4].shift(1)
+# Insert the new value at column 6, row 33
+df.iloc[30, 4] = None
+
 df2 = split_and_expand(df2)
 print(df2)
 
