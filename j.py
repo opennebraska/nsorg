@@ -23,11 +23,12 @@ print("conversion of all tables to dataframes is done")
 def count_elements(cell):
   if pd.isna(cell):
     return 0
-  return len(cell.split('\n'))
+  return len(cell.split('\n'))  # There's no such argument allowed here: expand=True))
 
 
 # Drop columns that only have one element after we split()
 def drop_columns_that_dont_split(df):
+  print("Welcome to drop_columns_that_dont_split()")
   # Inspect the DataFrame and drop columns with only one element in each cell after split
   columns_to_drop = []
 
@@ -45,6 +46,9 @@ def drop_columns_that_dont_split(df):
 
   # Drop the columns
   df_cleaned = df.drop(columns=columns_to_drop)
+  # Rename columns to sequential integers so the now-missing columns don't leave gaps in the column IDs
+  df_cleaned.columns = range(df_cleaned.shape[1])
+  print(df_cleaned)
   return df_cleaned
 
 
@@ -70,8 +74,17 @@ def split_and_expand(df):
 
   # Attempt 3: Nope, this explodes
   # Split each cell by '\n'
-  # for column in df.columns:
-  #   df[column] = df[column].str.split('\n')
+  for column in df.columns:
+    # df[column] = df[column].str.split('\n', expand=True)
+    print("------- debug 2 for column", column, "----------")
+    # print(debug.iloc[0])
+    val = df.iat[0, column]  # Leave Pandas, get back to Python str
+    print(repr(val))  # print \n, not newline. So I can see 'em
+    print(type(val))  # Python str
+    print("--------------------------")
+    debug = df[column].str.split('\n', expand=True)
+    print(debug)
+    print("-------- end -------------\n")
   # Explode the DataFrame
   # df_expanded = df.apply(pd.Series.explode)
   # Reset the index
@@ -85,6 +98,8 @@ def split_and_expand(df):
 
   # Attempt 1: Nope, this explodes:
   # Split each cell by '\n' and create a new DataFrame where each row is a value from the split
+  # Can't expand=True here either:
+  # TypeError: DataFrame.explode() missing 1 required positional argument: 'column'
   df_expanded = df.apply(lambda x: x.str.split('\n').explode()).reset_index(drop=True)
   # ValueError: cannot reindex on an axis with duplicate labels
 
@@ -121,8 +136,38 @@ def clean_and_concat_dataframes(begin, end):
 
 
 # The first actual dataframe we want to extract is 4..8 from the messy set of all dataframes extracted above
-df1 = clean_and_concat_dataframes(4, 8)
+# lol, can't even do this, because it's inconsistent:
+# df1 = clean_and_concat_dataframes(4, 8)
+df1 = dataframes[4]
+df1 = df1.drop([0])  # Drop header row. PDF is a mess.
+df1 = drop_columns_that_dont_split(df1)
+df1 = split_and_expand(df1)
+# Success: we now have PDF page 13
+# Where is PDF page 14??
+this_df = dataframes[5]
+this_df = this_df.drop([0])  # Drop header row. PDF is a mess.
+this_df = drop_columns_that_dont_split(this_df)
+this_df = split_and_expand(this_df)
+# Success: we now have PDF page 15 (fancy, this one has no header row)
+# Where is PDF page 16??
+df1 = pd.concat([df1, this_df])
+this_df = dataframes[6]
+this_df = drop_columns_that_dont_split(this_df)
+this_df = split_and_expand(this_df)
+# Success: we now have PDF page 17
+df1 = pd.concat([df1, this_df])
 print(df1)
+
+# PDF page 18 (dataframe 7) begins the second set of tabular data:
+df2 = dataframes[7]
+df2 = df2.drop([0])  # Drop header row. PDF is a mess.
+df2 = drop_columns_that_dont_split(df2)
+print(df2)
+df2 = split_and_expand(df2)
+print(df2)
+
+print("What is dataframe 8?")
+print(dataframes[8])
 
 
 # The first actual dataframe we want to extract is 4..8 from the messy set of all dataframes extracted above
