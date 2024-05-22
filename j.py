@@ -102,28 +102,38 @@ df = pd.DataFrame(data)
 # df_expanded = split_and_expand(df)
 # print(df_expanded)
 
+
+# The first actual dataframe we want to extract is 4..8 from the messy set of all dataframes extracted above
+df1 = dataframes[4]
+df1 = df1.drop([0])  # Drop header row. PDF is a mess.
+df1 = drop_columns_that_dont_split(df1)
+df1 = split_and_expand(df1)
+print(df1)
+
+
 # Display the DataFrames
-for i, df in enumerate(dataframes):
-  if i < 4:
-    continue  # PDF tables we don't want
-  print(f"Table {i}")
-  print(df)
-  df = df.drop([0])  # Drop header row. PDF is a mess.
-  print(df)
-  print("------ here are the index value counts: --------------------")
-  print(df.index.value_counts())
-  print("------ element counts ----------")
-  # Apply the function to each cell in the DataFrame
-  element_counts = df.applymap(count_elements)
-  # Display the DataFrame with element counts
-  print(element_counts)
-  print("------ Drop columns ----------------")
-  df = drop_columns_that_dont_split(df)
-  print(df)
-  print("------- split and expand -------------------")
-  df = split_and_expand(df)
-  print(df)
-  break
+def naively_loop_all_dataframes():
+  for i, df in enumerate(dataframes):
+    if i < 4:
+      continue  # PDF tables we don't want
+    print(f"Table {i}")
+    print(df)
+    df = df.drop([0])  # Drop header row. PDF is a mess.
+    print(df)
+    print("------ here are the index value counts: --------------------")
+    print(df.index.value_counts())
+    print("------ element counts ----------")
+    # Apply the function to each cell in the DataFrame
+    element_counts = df.applymap(count_elements)
+    # Display the DataFrame with element counts
+    print(element_counts)
+    print("------ Drop columns ----------------")
+    df = drop_columns_that_dont_split(df)
+    print(df)
+    print("------- split and expand -------------------")
+    df = split_and_expand(df)
+    print(df)
+    break
 
 
 # con = sqlite3.connect("nsorg.sqlite3")
