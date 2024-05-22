@@ -23,7 +23,7 @@ tables = camelot.read_pdf("appendix_f.pdf", pages=pages)
 print("read_pdf() is done")
 i = 0
 for table in tables:
-  print(table.to_json(str(i) + ".json"))
+  table.to_json(str(i) + ".json")
   i += 1
 
 # Convert each table into a DataFrame
@@ -64,8 +64,8 @@ def drop_columns_that_dont_split(df):
   return df_cleaned
 
 
-# Function to split and expand DataFrame
-def split_and_expand(df):
+# Function to split DataFrame
+def split(df):
 
   # Attempt 5: Nope, this explodes
   # Split each cell by '\n'
@@ -86,17 +86,22 @@ def split_and_expand(df):
 
   # Attempt 3: Nope, this explodes
   # Split each cell by '\n'
-  for column in df.columns:
+
+  # -----------------
+  # Jay's helpful debugging:
+  # for column in df.columns:
     # df[column] = df[column].str.split('\n', expand=True)
-    print("------- debug 2 for column", column, "----------")
+  #   print("------- debug 2 for column", column, "----------")
     # print(debug.iloc[0])
-    val = df.iat[0, column]  # Leave Pandas, get back to Python str
-    print(repr(val))  # print \n, not newline. So I can see 'em
-    print(type(val))  # Python str
-    print("--------------------------")
-    debug = df[column].str.split('\n', expand=True)
-    print(debug)
-    print("-------- end -------------\n")
+  #   val = df.iat[0, column]  # Leave Pandas, get back to Python str
+  #   print(repr(val))  # print \n, not newline. So I can see 'em
+  #   print(type(val))  # Python str
+  #   print("--------------------------")
+  #   debug = df[column].str.split('\n', expand=True)
+  #   print(debug)
+  #   print("-------- end -------------\n")
+  # -----------------
+
   # Explode the DataFrame
   # df_expanded = df.apply(pd.Series.explode)
   # Reset the index
@@ -112,10 +117,19 @@ def split_and_expand(df):
   # Split each cell by '\n' and create a new DataFrame where each row is a value from the split
   # Can't expand=True here either:
   # TypeError: DataFrame.explode() missing 1 required positional argument: 'column'
-  df_expanded = df.apply(lambda x: x.str.split('\n').explode()).reset_index(drop=True)
-  # ValueError: cannot reindex on an axis with duplicate labels
 
-  return df_expanded
+  # df = df.apply(lambda x: x.str.split('\n').explode()).reset_index(drop=True)
+  df = df.apply(lambda x: x.str.split('\n'))
+  # ValueError: cannot reindex on an axis with duplicate labels
+  return df
+
+
+# Function to split DataFrame
+def explode(df):
+  df = df.apply(lambda x: x.explode()).reset_index(drop=True)
+  # ValueError: cannot reindex on an axis with duplicate labels
+  return df
+
 
 # Apply the function to the DataFrame
 # df_expanded = split_and_expand(df)
@@ -153,19 +167,22 @@ def clean_and_concat_dataframes(begin, end):
 df1 = dataframes[0]
 df1 = df1.drop([0])  # Drop header row. PDF is a mess.
 df1 = drop_columns_that_dont_split(df1)
-df1 = split_and_expand(df1)
+df1 = split(df1)
+df1 = explode(df1)
 # Success: we now have PDF page 13
 # Where is PDF page 14??
 this_df = dataframes[1]
 this_df = this_df.drop([0])  # Drop header row. PDF is a mess.
 this_df = drop_columns_that_dont_split(this_df)
-this_df = split_and_expand(this_df)
+this_df = split(this_df)
+this_df = explode(this_df)
 # Success: we now have PDF page 15 (fancy, this one has no header row)
 # Where is PDF page 16??
 df1 = pd.concat([df1, this_df])
 this_df = dataframes[2]
 this_df = drop_columns_that_dont_split(this_df)
-this_df = split_and_expand(this_df)
+this_df = split(this_df)
+this_df = explode(this_df)
 # Success: we now have PDF page 17
 df1 = pd.concat([df1, this_df])
 print(df1)
@@ -176,15 +193,23 @@ df2 = df2.drop([0])  # Drop header row. PDF is a mess.
 df2 = drop_columns_that_dont_split(df2)
 print(df2)
 
+df2 = split(df2)
+print(df2)
+# Gah, the PDF has a blank so the list is 1 element short of the length of the others. 
+# We need to fill that blank with None or explode() is going to explode()
+# (in a runtime error sort of way, not the way we want)
+df2.iat[0, 4].insert(30, None)
+print(df2)
+
 # Add a new row to ensure there's room to shift values down
-df.loc[len(df)] = [None] * df.shape[1]
+# df2.loc[len(df)] = [None] * df2.shape[1]
 # Shift values in column 6 from row 33 down
 # df.loc[34:, 'Column6'] = df.loc[33:, 'Column6'].shift(1)
-df.iloc[30:, 4] = df.iloc[29:, 4].shift(1)
+# df2.iloc[30:, 4] = df2.iloc[29:, 4].shift(1)
 # Insert the new value at column 6, row 33
-df.iloc[30, 4] = None
+# df2.iloc[30, 4] = None
 
-df2 = split_and_expand(df2)
+df2 = explode(df2)
 print(df2)
 
 print("What is dataframe 8?")
