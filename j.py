@@ -34,11 +34,11 @@ def drop_columns_that_dont_split(df):
   for column in df.columns:
     # unique_counts = df[column].apply(lambda cell: count_elements(cell)).nunique()
     count = df[column].apply(lambda cell: count_elements(cell)).iloc[0]
-    print("=========")
-    print(count)
-    print("=========")
+    # print("=========")
+    # print(count)
+    # print("=========")
     # count = count_elements(column)
-    print("For column", column, "count elements is", count)
+    # print("For column", column, "count elements is", count)
     if count == 1:
       # if unique_counts == 1:
       columns_to_drop.append(column)
@@ -103,12 +103,34 @@ df = pd.DataFrame(data)
 # print(df_expanded)
 
 
+def clean_and_concat_dataframes(begin, end):
+  df = pd.DataFrame({})
+  i = begin
+  while i < end:
+    this_df = dataframes[i]
+    print("Going to try to concat in dataframe #", i, ":")
+    print("-------------------")
+    print(this_df)
+    print("-------------------")
+    this_df = this_df.drop([0])  # Drop header row. PDF is a mess.
+    this_df = drop_columns_that_dont_split(this_df)
+    this_df = split_and_expand(this_df)
+    df = pd.concat([df, this_df])
+    i += 1
+  return df
+
+
 # The first actual dataframe we want to extract is 4..8 from the messy set of all dataframes extracted above
-df1 = dataframes[4]
-df1 = df1.drop([0])  # Drop header row. PDF is a mess.
-df1 = drop_columns_that_dont_split(df1)
-df1 = split_and_expand(df1)
+df1 = clean_and_concat_dataframes(4, 8)
 print(df1)
+
+
+# The first actual dataframe we want to extract is 4..8 from the messy set of all dataframes extracted above
+# df1 = dataframes[4]
+# df1 = df1.drop([0])  # Drop header row. PDF is a mess.
+# df1 = drop_columns_that_dont_split(df1)
+# df1 = split_and_expand(df1)
+# print(df1)
 
 
 # Display the DataFrames
