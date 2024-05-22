@@ -33,9 +33,13 @@ def drop_columns_that_dont_split(df):
 
   for column in df.columns:
     # unique_counts = df[column].apply(lambda cell: count_elements(cell)).nunique()
-    count = count_elements(column)
+    count = df[column].apply(lambda cell: count_elements(cell)).iloc[0]
+    print("=========")
+    print(count)
+    print("=========")
+    # count = count_elements(column)
     print("For column", column, "count elements is", count)
-    if count_elements == 1:
+    if count == 1:
       # if unique_counts == 1:
       columns_to_drop.append(column)
 
