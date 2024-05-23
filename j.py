@@ -19,12 +19,12 @@ pages = [
 pages = ','.join(pages)
 
 # Read tables from a PDF file
-tables = camelot.read_pdf("appendix_f.pdf", pages=pages)
+tables = camelot.read_pdf("appendix_f.pdf", pages=pages)  # , split_text=True)
 print("read_pdf() is done")
 i = 0
 for table in tables:
   # Kick out JSON files so we can inspect them to see how disappointed (or not) we are in Camelot.
-  table.to_json(str(i) + ".json")
+  table.to_json("debug/" + str(i) + ".json")
   i += 1
 
 # Convert each table into a DataFrame
