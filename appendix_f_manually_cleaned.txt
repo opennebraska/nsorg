@@ -1,570 +1,211 @@
-    NORTH AND SOUTH OMAHA ECONOMIC RECOVERY COORDINATION PLAN
+                                                                                Grant       Construction          Operational Phase Rankings        Total
+Application                                         Project          Grant       Leveraging   Phase Ranking   Output   Jobs      Payroll State Taxes   Score
+  Number Applicant                                   Cost           Request         25%           10%          20%     20%        20%          5%      1 to 5
+
+     4    CB Designs                                   $20,000       $20,000      0.25          0.00         1.00     1.00       0.80       0.05      3.10
+     5    Lanrex LLC                                $2,000,000    $2,000,000      0.25          0.23         0.60     0.60       0.60       0.05      2.33
+     6    Southern Spoon LLC                          $500,000      $499,999      0.25          0.23         1.00     1.00       1.00       0.20      3.68
+     7    Money World Trucking                        $248,000      $248,000      0.25          0.00         1.00     1.00       0.60       0.15      3.00
+     8    SC‐3535 LLC                                 $208,000      $208,000      0.25          0.17         1.00     1.00       0.80       0.20      3.42
+     9    Educando Child Care Center                  $120,000      $120,000      0.25          0.23         1.00     1.00       0.00       0.25      2.73
+    10    Lawrence T. Butler                          $538,450      $260,450      0.50          0.27         1.00     1.00       0.00       0.25      3.02
+    12    Habitat for Humanity                      $2,915,200    $2,800,000      0.25          0.23         1.00     0.00       0.00       0.00      1.48
+    17    Destiny Elevate Excelence LLC                $50,000    $1,000,000      0.00          0.00         1.00     1.00       0.80       0.20      3.00
+    18    Styles of Evolution                          $84,548      $319,350      0.00          0.00         1.00     1.00       0.80       0.15      2.95
+    19    Elton & Connie Edmond                     $1,667,500    $1,617,500      0.25          0.20         1.00     1.00       0.80       0.20      3.45
+    21    Omaha Awakening Center                      $100,000      $100,000      0.25          0.00         1.00     1.00       1.00       0.20      3.45
+    22    Coleman Construction Training Institute   $3,500,000    $3,500,000      0.25          0.00         1.00     1.00       1.00       0.25      3.50
+    25    Partnership 4 Kids                          $133,750      $133,750      0.25          0.00         1.00     0.00       0.00       0.00      1.25
+    27    Notre Dame Housing                          $500,000      $500,000      0.25          0.23         0.00     0.00       0.00       0.00      0.48
+    28    Nebraska Early Childhood Collaborative    $4,000,000    $3,250,000      0.25          0.10         1.00     1.00       0.80       0.20      3.35
+    29    Ebony Patriot, LLC                          $735,000      $735,000      0.25          0.13         0.80     1.00       0.80       0.20      3.18
+    31    Partnership 4 Kids                        $3,858,618    $2,376,800      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+    33    Intercultural Senior Center               $2,812,674    $1,175,511      0.50          0.00         0.20     0.60       0.20       0.05      1.55
+    34    Habitat for Humanity of Omaha             $3,000,000    $3,000,000      0.25          0.23         0.00     0.00       0.00       0.00      0.48
+    35    I Be Black Girl                           $1,300,000      $512,500      0.50          0.13         0.20     0.80       0.20       0.10      1.93
+    43    DIBS for Kids                             $1,245,186      $924,186      0.25          0.23         0.40     1.00       0.20       0.10      2.18
+    44    City Sprouts                              $2,139,890    $2,139,890      0.25          0.00         0.20     0.60       0.20       0.05      1.30
+    45    White Lotus Group                         $2,099,189    $1,384,311      0.25          0.33         0.20     0.80       0.20       0.10      1.88
+    50    Women's Center for Advancement            $1,792,436    $1,792,436      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+    52    Kids Can Community Center                 $1,821,375    $1,500,000      0.25          0.23         0.60     1.00       0.40       0.10      2.58
+    54    Omaha Municipal Land Bank                   $600,000      $600,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+    58    Omaha Municipal Land Bank                 $4,400,000    $4,400,000      0.25          0.20         0.20     0.20       0.20       0.05      1.10
+    61    Edward Breckenridge                         $250,000      $250,000      0.25          0.00         0.80     1.00       0.80       0.15      3.00
+    62    Omaha Municipal Land Bank                 $2,400,000    $2,400,000      0.25          0.23         0.20     0.40       0.20       0.05      1.33
+    63    Kids Can Community Center                         $0            $0      0.00          0.00         0.00     0.00       0.00       0.00      0.00
+    65    Labor of Love Doula Service                  $25,000       $25,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+    66    Xclusive Entertainment                    $2,000,000    $2,000,000      0.25          0.20         0.60     1.00       0.40       0.10      2.55
+    68    Chicken Bucket                              $200,000      $200,000      0.25          0.00         1.00     1.00       0.80       0.25      3.30
+    70    Rabble Mill                               $2,575,783      $808,773      0.75          0.33         0.80     1.00       0.40       0.20      3.48
+    72    Boston School of Cosmetology              $1,640,000    $1,500,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+    74    Tate Janitorial                              $69,000       $35,000      0.25          0.00         1.00     1.00       1.00       0.20      3.45
+    75    Nebraska Startup Academy                  $1,200,000    $1,200,000      0.25          0.00         1.00     1.00       1.00       0.25      3.50
+    76    Neter Enterprise LLC                      $4,950,000    $4,950,000      0.25          0.17         0.80     1.00       1.00       0.20      3.42
+    80    Department of Education                      $20,000       $20,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+    87    Coleman Construction Corp.                $2,500,000    $2,500,000      0.25          0.20         0.00     0.00       0.00       0.00      0.45
+    88    Native Omaha Days                           $350,000  $100,000,000      0.00          0.00         0.20     0.00       0.00       0.00      0.20
+    90    Pacific Engineering                       $1,603,000    $1,603,000      0.25          0.23         1.00     1.00       1.00       0.25      3.73
+    91    Universal Soldiers                        $1,025,000    $2,000,000      0.00          0.00         0.20     0.60       0.20       0.05      1.05
+    92    Ital Vital Living                         $1,821,687    $1,851,687      0.00          0.00         0.80     1.00       0.80       0.20      2.80
+    93    Ferguson Cooper                                   $0    $1,000,000      0.00          0.00         0.00     0.00       0.00       0.00      0.00
+    94    Kool Kids Day Care                           $90,000       $89,999      0.25          0.00         1.00     1.00       1.00       0.20      3.45
+    97    WNQ Inc.                                  $1,800,000   $10,000,000      0.00          0.00         0.40     0.80       0.20       0.10      1.50
+    98    Pattys Childcare Center                   $1,682,500    $1,500,000      0.25          0.00         1.00     1.00       0.80       0.20      3.25
+    99    Vaughn & Associates                       $3,000,000    $3,000,000      0.25          0.00         0.20     0.40       0.20       0.05      1.10
+   101    WCDI Consulting                             $470,000      $400,000      0.25          0.23         0.80     1.00       0.80       0.20      3.28
+   106    Compassion in Action                      $2,000,000    $2,000,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   109    Healthy Housing Omaha                     $1,904,740    $1,904,740      0.25          0.00         0.20     0.80       0.20       0.05      1.50
+   114    Divine Angels                             $3,000,000    $3,000,000      0.25          0.00         0.80     1.00       0.80       0.15      3.00
+   117    Omaha Data Sciences Academy               $2,875,702    $2,875,702      0.25          0.00         1.00     1.00       1.00       0.25      3.50
+   118    SAVE Program                                $401,100      $200,000      0.50          0.00         1.00     1.00       1.00       0.25      3.75
+   119    Black & Pink National                     $3,599,190      $500,000      1.25          0.50         0.20     1.00       0.20       0.10      3.25
+   120    Vaughn & Associates                       $3,000,000    $3,000,000      0.25          0.00         0.40     0.80       0.20       0.10      1.75
+   121    Jones II                                    $122,250      $122,250      0.25          0.00         1.00     1.00       0.80       0.20      3.25
+   125    24‐2 Child Care Center                    $2,000,000      $750,000      0.50          0.00         0.00     0.00       0.00       0.00      0.50
+   126    National Community                          $943,292      $900,093      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   130    RGRBP‐Legacy Builders                     $2,682,000    $1,600,000      0.25          0.27         0.00     0.00       0.00       0.00      0.52
+   131    Own the Pond                                $150,000      $100,000      0.25          0.23         0.00     0.00       0.00       0.00      0.48
+   133    Creighton University                      $1,500,000    $1,500,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   139    Descendants of DeWitty, NE                   $15,800       $15,800      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   140    Well Kept Investments                       $400,000      $380,000      0.25          0.17         0.00     0.00       0.00       0.00      0.42
+   141    Abide                                       $175,000      $125,000      0.25          0.23         0.00     0.00       0.00       0.00      0.48
+   142    JD&P Enterprises                          $2,500,000    $2,000,000      0.25          0.00         0.80     1.00       0.60       0.15      2.80
+   144    Omaha Center for Refuge                     $850,000      $850,000      0.25          0.00         0.80     1.00       0.80       0.15      3.00
+   149    Heartland News                              $400,000      $400,000      0.25          0.17         0.00     0.00       0.00       0.00      0.42
+   150    Midlands Latino CDC                       $1,996,685    $1,996,685      0.25          0.10         0.20     0.80       0.20       0.05      1.60
+   151    NOC Redevelopment Corporation             $3,700,000    $1,500,000      0.50          0.30         0.80     1.00       0.40       0.10      3.10
+   154    Midlansa Latino CDC                         $832,235      $832,235      0.25          0.00         0.80     1.00       0.80       0.20      3.05
+   155    Devine Holdings                           $2,551,000    $2,400,000      0.25          0.23         0.00     0.00       0.00       0.00      0.48
+   157    Beyond the Basics                         $1,000,000   $10,000,000      0.00          0.00         0.00     0.00       0.00       0.00      0.00
+   158    Omaha Municipal Land Bank                         $0            $0      0.00          0.00         0.00     0.00       0.00       0.00      0.00
+   159    Kelly's Complete Auto Detailing              $55,000       $75,000      0.25          0.13         1.00     1.00       1.00       0.25      3.63
+   161    NEWbraska Partners                          $700,000      $500,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   163    Comunidad Maya Pixam Ixim                 $1,450,103    $1,350,103      0.25          0.00         1.00     1.00       1.00       0.20      3.45
+   169    GESU Housing                              $2,196,101    $1,196,102      0.25          0.27         0.00     0.00       0.00       0.00      0.52
+   170    NIA Insurance Agency                        $300,000    $7,500,000      0.00          0.00         0.00     0.00       0.00       0.00      0.00
+   172    Prospect Hill Cemetary                    $1,101,264      $848,925      0.25          0.23         1.00     1.00       0.20       0.10      2.78
+   175    NEWbraska Partners                        $3,600,000    $1,630,000      0.50          0.00         0.00     0.00       0.00       0.00      0.50
+   176    True Purpose                                $750,000      $750,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   179    Dean Enterprise                           $1,960,000    $1,960,000      0.25          0.20         0.00     0.00       0.00       0.00      0.45
+   181    House of Darsa                              $892,955      $892,955      0.25          0.10         0.20     1.00       0.20       0.05      1.80
+   182    The Ham Sandie Shoppe                       $750,000      $750,000      0.25          0.00         0.20     1.00       0.20       0.05      1.70
+   184    White Lotus Group                         $2,971,500    $1,110,000      0.50          0.33         1.00     1.00       1.00       0.25      4.08
+   185    Culxr House                               $2,738,000    $2,738,000      0.25          0.10         0.20     0.80       0.20       0.05      1.60
+   187    Prosperous Homes                          $1,065,000    $1,000,000      0.25          0.13         0.00     0.00       0.00       0.00      0.38
+   189    Jammit Security                              $60,000       $80,000      0.00          0.00         1.00     1.00       1.00       0.20      3.20
+   190    RADIUS                                    $3,513,896      $678,545      1.25          0.00         1.00     1.00       1.00       0.25      4.50
+   195    Ella Belle Café on Wheels                   $600,000      $750,000      0.25          0.00         1.00     1.00       0.80       0.10      3.15
+   196    United Way of Midlands                      $449,000      $448,999      0.25          0.00         1.00     1.00       1.00       0.20      3.45
+   203    Jim Rib Haven                             $2,000,000    $2,000,000      0.25          0.17         0.40     1.00       0.20       0.10      2.12
+   205    Po Boy Mega Alley                           $250,000      $152,500      0.25          0.10         1.00     1.00       1.00       0.20      3.55
+   206    IT&T Trucking                             $1,163,528    $1,163,528      0.25          0.00         1.00     1.00       1.00       0.25      3.50
+   208    Omaha Association of Black PFF            $3,363,100    $3,213,100      0.25          0.20         0.20     0.40       0.20       0.05      1.30
+   211    Trauma House of Healing                     $473,000      $473,000      0.25          0.00         0.80     1.00       0.80       0.20      3.05
+   212    Nmotion Inc.                                $950,000      $950,000      0.25          0.00         0.80     1.00       0.60       0.10      2.75
+   213    Pattys Childcare Center                   $2,000,000    $2,000,000      0.25          0.20         0.80     1.00       0.80       0.10      3.15
+   215    Tranqual Transformations                  $3,084,500    $3,084,500      0.25          0.20         0.20     0.60       0.20       0.05      1.50
+   218    Midland University                        $3,542,000    $1,425,820      0.50          0.00         1.00     1.00       1.00       0.25      3.75
+   220    All American Environmental Services         $300,000    $1,000,000      0.00          0.00         0.40     1.00       0.20       0.05      1.65
+   221    Bonita Sims                                 $300,000      $300,000      0.25          0.00         0.80     1.00       0.80       0.10      2.95
+   222    The Wellbeing Partners                      $228,397      $209,198      0.25          0.00         0.20     1.00       0.20       0.05      1.70
+   224    Healing Vibes                               $350,000      $349,999      0.25          0.00         0.80     1.00       0.80       0.20      3.05
+   226    Brown Memorial Study Center               $1,233,000      $830,000      0.25          0.00         0.80     1.00       0.80       0.10      2.95
+   230    Latsha Griffin                              $100,000      $100,000      0.25          0.00         1.00     1.00       1.00       0.20      3.45
+   231    King's Landing                            $1,000,000    $1,000,000      0.25          0.17         1.00     1.00       0.80       0.20      3.42
+   233    Jendaya Frazer 50 Ventures                $1,134,692      $452,760      0.50          0.33         0.00     0.00       0.00       0.00      0.83
+   235    Ansell Investments                          $275,000       $27,500      1.25          0.50         0.00     0.00       0.00       0.00      1.75
+   236    The Lund Company                          $4,600,000    $1,500,000      0.75          0.40         0.20     0.60       0.20       0.05      2.20
+   237    JoDavid Harvis                              $250,000      $200,000      0.25          0.23         0.00     0.00       0.00       0.00      0.48
+   239    LCS Neighborhood Association                $200,000      $100,600      0.25          0.27         0.00     0.00       0.00       0.00      0.52
+   240    Lionhead Rentals                          $2,000,000    $2,000,000      0.25          0.17         0.00     0.00       0.00       0.00      0.42
+   242    SAVE Program                                $250,000      $250,000      0.25          0.00         1.00     1.00       1.00       0.25      3.50
+   243    National Woman's Volleyball League        $4,000,000    $3,000,000      0.25          0.20         0.80     1.00       0.80       0.10      3.15
+   247    4urban.org                                $1,800,000      $950,000      0.25          0.00         0.80     1.00       0.80       0.10      2.95
+   250    Binyard Green Clean                         $619,379      $619,379      0.25          0.00         1.00     1.00       1.00       0.20      3.45
+   251    Brown Bean Cup of Joe                     $1,325,400    $1,325,401      0.25          0.10         0.40     1.00       0.20       0.05      2.00
+   253    10,000 Fearless M&W                       $4,825,800    $4,825,800      0.25          0.00         0.40     1.00       0.20       0.10      1.95
+   254    LCS Neighborhood Association                $300,000      $300,000      0.25          0.20         0.00     0.00       0.00       0.00      0.45
+   256    Still Poppin Gourmet Popcorn              $2,000,000    $1,500,000      0.25          0.20         1.00     1.00       1.00       0.20      3.65
+   257    Nebraska Union Indian Health                $623,600      $623,600      0.25          0.00         0.40     1.00       0.20       0.10      1.95
+   259    Men Against Domestic Violence             $2,000,000    $1,594,600      0.25          0.00         0.20     0.80       0.20       0.05      1.50
+   260    Midlands African Chamber                  $2,000,000    $2,000,000      0.25          0.20         1.00     1.00       0.80       0.20      3.45
+   261    Diversify the Pie                           $694,000      $694,000      0.25          0.00         1.00     1.00       0.80       0.20      3.25
+   262    Joseph Colony Inc.                          $750,000      $750,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   265    Cultivating Paths Counseling                $245,494      $300,000      0.00          0.00         1.00     1.00       0.80       0.20      3.00
+   266    Legacy Demolition                           $315,000      $315,000      0.25          0.00         1.00     1.00       1.00       0.25      3.50
+   269    SheMate                                   $4,000,000    $3,000,000      0.25          0.10         0.20     0.80       0.20       0.05      1.60
+   270    FBJ Logistics                             $2,000,000    $1,999,999      0.25          0.00         0.20     0.80       0.20       0.05      1.50
+   272    Ren Mind                                  $2,500,000    $1,750,000      0.25          0.00         0.20     0.60       0.20       0.05      1.30
+   273    Leading Edge Entreprenuer                    $60,449       $36,269      0.25          0.00         0.80     1.00       0.80       0.15      3.00
+   275    Discovery Dream School                      $533,000      $533,000      0.25          0.00         1.00     1.00       0.80       0.20      3.25
+   276    Capture Development                       $2,000,000    $1,000,000      0.50          0.00         1.00     1.00       0.80       0.20      3.50
+   278    Cali Commons                                $454,715      $734,716      0.00          0.00         0.20     0.80       0.20       0.05      1.25
+   280    Omaha Documenters                         $1,656,900      $990,000      0.25          0.00         0.20     1.00       0.20       0.10      1.75
+   281    Big Mama's Kitchen                          $500,000      $500,000      0.25          0.00         0.80     1.00       0.60       0.15      2.80
+   283    Peace Love Smoothies                        $304,500      $294,500      0.25          0.00         0.60     1.00       0.40       0.10      2.35
+   284    NEWbraska Partners                          $720,000      $510,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   285    Results Sports & Fitness                  $1,450,000    $1,100,000      0.25          0.00         0.80     1.00       0.80       0.15      3.00
+   286    North Omaha Architecture                          $0      $250,000      0.00          0.00         1.00     1.00       1.00       0.20      3.20
+   290    La Casa Del Pueblo                          $642,150      $469,000      0.25          0.10         1.00     1.00       0.80       0.20      3.35
+   291    Moorish Enterprises                       $2,000,000    $2,000,000      0.25          0.13         0.00     0.00       0.00       0.00      0.38
+   292    Empowering Kids Academy                   $2,600,000    $2,600,000      0.25          0.17         0.80     1.00       0.60       0.15      2.97
+   295    Purely Sense                              $2,500,000    $2,500,000      0.25          0.00         0.20     0.60       0.20       0.05      1.30
+   296    Whispering Roots                          $2,769,146    $1,587,116      0.25          0.00         0.20     0.80       0.20       0.10      1.55
+   297    Mount Moriah Baptist Church               $3,982,875    $3,500,000      0.25          0.20         0.20     0.80       0.20       0.05      1.70
+   298    The Legacy Empowerment                      $300,000      $150,000      0.50          0.00         0.00     0.00       0.00       0.00      0.50
+   299    Omaha Community Broadcasting              $2,792,300    $2,792,300      0.25          0.00         0.40     1.00       0.20       0.10      1.95
+   302    Ybusiness Solutions                         $825,000      $825,000      0.25          0.00         0.80     1.00       0.80       0.15      3.00
+   304    SA Consulting                               $800,000    $5,000,000      0.00          0.20         0.20     0.60       0.20       0.05      1.25
+   306    Banister's Leadership Academy             $2,577,500      $100,000      1.25          0.00         1.00     1.00       1.00       0.20      4.45
+   307    QUEENS Butterfly House                            $0    $1,000,000      0.00          0.00         0.20     0.80       0.20       0.05      1.25
+   308    Don's Barbershop                            $525,500      $525,500      0.25          0.20         0.00     0.00       0.00       0.00      0.45
+   309    Binyard LLC                                 $899,716      $337,970      0.50          0.37         0.00     0.00       0.00       0.00      0.87
+   311    Excellence Home Renovation                $3,500,000    $3,500,000      0.25          0.13         0.00     0.00       0.00       0.00      0.38
+   312    The AIM Institute                           $499,958      $499,958      0.25          0.00         0.40     1.00       0.40       0.10      2.15
+   313    Demo Lives Multimedia                     $1,000,000      $750,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   315    Jamilah Johnson                             $145,330      $145,330      0.25          0.23         0.00     0.00       0.00       0.00      0.48
+   316    Brittany's Balance                          $160,000      $159,997      0.25          0.00         1.00     1.00       1.00       0.20      3.45
+   317    Jermaine Rucker                             $200,000      $100,000      0.50          0.23         0.00     0.00       0.00       0.00      0.73
+   318    Omaha Arts Council                        $1,634,000    $1,634,000      0.25          0.13         0.00     0.00       0.00       0.00      0.38
+   319    No Worries Property Solutions               $300,000      $300,000      0.25          0.00         0.80     1.00       0.80       0.20      3.05
+   320    Nebraska Urban Indian Health                $636,215      $636,215      0.25          0.13         0.00     0.00       0.00       0.00      0.38
+   321    Spotlight Comedy House                      $400,000      $400,000      0.25          0.00         0.20     0.80       0.20       0.05      1.50
+   322    Jerry Johnson                                $92,080       $92,079      0.25          0.27         0.00     0.00       0.00       0.00      0.52
+   325    Valentine‐Shirley LLC                     $3,500,000    $3,000,000      0.25          0.10         0.80     1.00       0.80       0.15      3.10
+   326    Carnation Place                           $1,500,000    $1,500,000      0.25          0.20         1.00     1.00       0.80       0.20      3.45
+   327    Aleeca's Sugar Shoppe                     $3,000,000    $2,975,000      0.25          0.00         0.40     0.80       0.20       0.10      1.75
+   328    Edmonson Youth Outreach                     $700,000      $699,996      0.25          0.00         0.40     1.00       0.20       0.10      1.95
+   330    North Omaha Community Partnership         $3,170,000    $3,170,000      0.25          0.00         0.40     1.00       0.20       0.10      1.95
+   331    The Creative Impulse                        $673,608      $673,608      0.25          0.10         0.20     1.00       0.20       0.05      1.80
+   333    Destiny Café                                $754,500      $700,000      0.25          0.10         0.80     1.00       0.80       0.15      3.10
+   335    Leaders to Legends                        $4,000,000    $2,000,000      0.50          0.00         0.80     1.00       0.80       0.20      3.30
+   337    East African Development Association      $1,300,000    $1,300,000      0.25          0.10         0.80     1.00       0.40       0.15      2.70
+   338    Ivy League Youth Sports Academy             $800,000    $1,000,000      0.00          0.00         1.00     1.00       1.00       0.25      3.25
+   339    Natasha L. Coanner                        $1,300,000    $1,300,000      0.25          0.13         0.00     0.00       0.00       0.00      0.38
+   340    Ontic Properties                          $4,150,000    $3,550,000      0.25          0.10         0.00     0.00       0.00       0.00      0.35
+   342    Skatefest Omaha                           $2,114,880    $2,114,880      0.25          0.13         0.20     0.80       0.20       0.05      1.63
+   343    Elisha Rodriguez                          $2,850,000      $560,000      1.25          0.43         0.00     0.00       0.00       0.00      1.68
+   344    Accessory Homes                           $2,344,418    $2,344,418      0.25          0.13         0.00     0.00       0.00       0.00      0.38
+   345    1st Sky Omaha                             $3,949,900    $1,844,300      0.50          0.00         0.20     0.80       0.20       0.05      1.75
+   347    Charmaine Morton                          $1,000,000      $100,000      1.25          0.50         0.00     0.00       0.00       0.00      1.75
+   348    DGM Fitness Studio                          $800,000      $800,000      0.25          0.10         0.60     1.00       0.40       0.10      2.45
+   350    Davie's Dojo                                $799,500      $623,500      0.25          0.00         0.20     1.00       0.20       0.10      1.75
+   351    National Community                        $1,990,093    $1,946,894      0.25          0.10         0.80     1.00       0.80       0.20      3.15
+   352    Heartland Workers Center                  $1,598,574    $1,398,574      0.25          0.00         0.80     1.00       0.80       0.15      3.00
+   357    Roofs, Walls & All                        $3,000,000    $2,999,997      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   358    Bobby Byars Foundation                    $1,123,000    $1,123,000      0.25          0.10         0.20     0.60       0.20       0.05      1.40
+   359    1966                                        $350,000      $300,000      0.25          0.13         0.00     0.00       0.00       0.00      0.38
+   360    Complete Technologies                     $2,123,094    $1,416,094      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   362    Legacy Staff Solutions                    $1,715,000    $1,715,000      0.25          0.00         1.00     1.00       1.00       0.25      3.50
+   363    Scholarship Fund                          $2,500,000    $2,500,000      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   364    Mentoring Plus                              $281,351      $281,351      0.25          0.00         0.00     0.00       0.00       0.00      0.25
+   366    CC Visions LLC                            $1,689,482    $1,581,382      0.25          0.00         0.20     1.00       0.40       0.10      1.95
+   367    Historic North Omaha Center               $3,000,000    $3,000,000      0.25          0.10         0.80     1.00       0.60       0.15      2.90
+   368    Guiding Light Foundation                    $357,920      $357,920      0.25          0.00         1.00     1.00       0.80       0.20      3.25
+   369    Treadstone Activity Center                  $771,163      $771,163      0.25          0.00         0.80     1.00       0.80       0.20      3.05
+   370    WS Food Supplies LLC                        $800,000      $400,000      0.50          0.00         1.00     1.00       1.00       0.20      3.70
 
 
-    APPENDIX F: ECONOMIC IMPACT
-
-    EVALUATION
-    REPORT
-
-F
-CANYON RESEARCH SOUTHWEST, INC.
-        COMMERCIAL REAL ESTATE RESEARCH AND ANALYSIS
-
-
-
-
-                                     Prepared for Olsson, Inc.
-                                      601 P Street, Suite 200
-                                       Lincoln, NE 68501
-
-
-
-
-                             ECONOMIC IMPACT
-                             ASSESSMENT
-                             Omaha LB1024 Grant
-                             Applications
-
-
-
-
-                             Canyon Research Southwest, Inc.
-
-
-
-
-505 ELLICOTT STREET SUITE A202 / BUFFALO, NY 14203 / (716) 327-5576
-       CANYON RESEARCH SOUTHWEST, INC.
-                  COMMERCIAL REAL ESTATE RESEARCH AND ANALYSIS
-
-
-
-
-                    ECONOMIC IMPACT ASSESSMENT
-                   OMAHA LB1024 GRANT APPLICATIONS
-                      QUALIFIED CENSUS TRACTS
-                          OMAHA, NEBRASKA
-                                         October 2022
-
-
-
-
-Prepared for:
-       Olsson, Inc.
-       601 P Street, Suite 200
-       Lincoln, NE 68501-4608
-
-Prepared by:
-       Canyon Research Southwest, Inc.
-       505 Ellicott Street, Suite A202
-       Buffalo, NY 14203
-
-PR# 2022.10.02
-
-
-
-        505 ELLICOTT STREET SUITE A202 / BUFFALO, NY 14203 / (716) 327-5576
-        CANYON RESEARCH SOUTHWEST, INC.
-                   COMMERCIAL REAL ESTATE RESEARCH AND ANALYSIS
-
-
-
-
-October 28, 2022
-
-
-Michael C. Piernicky, PE
-Olsson, Inc.
-601 P Street, Suite 200
-Lincoln, NE 68501-4608
-
-RE:    Economic Impact Assessment
-       Omaha LB1024 Grant Applications
-
-Mr. Piernicky:
-
-The Economic Recovery Act Bill, referred to as LB1024, was signed into law in April 2022.
-LB1024 provides a total of at least $335 million for qualified census tracts throughout Nebraska,
-largely focusing on North and South Omaha. The bulk of LB1024 funding is designated for the
-Qualified Census Tract (“QCT”) Recovery Grant Program.
-
-A total of 369 grant applications have been submitted for consideration of LB1024 funding. The
-purpose of the attached Economic Impact Assessment is to estimate economic benefits generated
-by the proposed project outlined in each grant application. Where applicable, both construction
-and operational economic benefits were estimated based on the project information provided and
-a weighted ranking system applied.
-
-Upon review of the study findings, should any questions arise, or additional information requested,
-please call me directly at (716) 327-5576.
-
-Respectfully submitted,
-
-CANYON RESEARCH SOUTHWEST, INC.
-
-
-Eric S. Lander, Principal
-
-
-
-
-        505 ELLICOTT STREET SUITE A202 / BUFFALO, NY 14203 / (716) 327-5576
-                       TABLE OF CONTENTS
-                                                                                                               Page #
-
-INTRODUCTION .....................................................................................                1
-      Study Methodology and Scope of Work ..................................................                      1
-
-ECONOMIC IMPACT ASSESSMENT ...........................................
-      Project Group #1 .....................................................................................
-      Project Group #2 .....................................................................................
-      Project Group #3 .....................................................................................
-      Project Group #4 .....................................................................................
-
-
-
-
-Canyon Research Southwest, Inc.                                                                                         i
- ECONOMIC IMPACT ASSESSMENT
-OMAHA LB1024 GRANT APPLICATIONS
-   QUALIFIED CENSUS TRACTS
-       OMAHA, NEBRASKA
-           October 2022
-                                INTRODUCTION
-
-             Study Methodology and Scope of Work
-The Economic Recovery Act Bill, referred to as LB1024, was signed into law in April 2022.
-LB1024 provides a total of at least $335 million for qualified census tracts throughout Nebraska,
-largely focusing on North and South Omaha. The bulk of LB1024 funding is designated for the
-Qualified Census Tract (“QCT”) Recovery Grant Program. The aerial on page 3 identifies
-the Qualified Census Tracts for North and South Omaha.
-
-Grants under the QCT Recovery Grant Program can be used for any eligible purposes under
-ARPA. The goal of the QCT Recovery Grant Program is to foster desirable transformation,
-fundamental change, and long-lasting economic growth in the communities of North and
-South Omaha. The Economic Impact Assessment is a component of the grant application
-screening process to determine grant monies allocation no later than December 2022.
-
-A total of 369 grant applications were submitted for consideration of LB1024 funding. The
-purpose of the attached Economic Impact Assessment is to estimate economic benefits generated
-by the proposed project outlined in each grant application. When sufficient data is available from
-the project application, both construction and operational economic impacts were estimated
-
-Economic impact studies estimate the total dollars, jobs, and household income generated in an
-economy due to a new activity such as a new business or business expansion, a festival, or
-construction of an office park. Economic impact studies use an input-output (I/O) model to
-measure the direct, indirect, and induce effects of a new economic activity.
-
-This study focuses on estimating direct and indirect economic benefits. Direct economic impacts
-include the employment and income generated directly by the project. Indirect economic impacts
-include spin-off employment and income associated with operation of the project. Direct and
-indirect economic benefits forecast for each grant application, where applicable, include:
-
-   1. One-Time Construction Costs
-   2. Sales and Total Output
-   3. Jobs/Employment
-   4. Payroll/Wages
-   5. State Income Taxes
-
-The annual output for each grant application was also measured. Given the diversity of the
-applications and limited information provided, the annual output was confined to the wages
-generated by each project. A regional multiplier was applied to the wages to arrive at a project’s
-annual output.
-
-To compare grant applications of similar financial magnitude, they were grouped based on cost of
-investment and include:
-
-Group #1:      Less than $5,000,000
-Group #2:      $5,000,000 to $25,000,000
-Canyon Research Southwest, Inc.                                                                 1
-Group #3:      $25,000,000 to $50,000,000
-Group #4:      Over $50,000,000
-
-An objective of the LB1024 grant should be to both assist in funding viable projects and leveraging
-additional investment by project applicants. By prompting additional investment, the projects will
-have a greater economic impact on the Qualified Census Tracts. The magnitude of the LB1024
-grant impact on each project is measured by the amount of investment by the applicant that exceeds
-the grant amount. The metric is measured by dividing the total project budget by the requested
-grant amount. A measurement of 1.0 indicates no additional investment in the project by the
-applicant while a measurement above 1.0 indicates the rate of additional applicant investment.
-Projects where applicants provide additional investment received higher rankings than those
-projects that are fully funded by the LB1024 grant.
-
-To provide for a single number score for a project’s economic impact a weighted ranking system
-was applied to each economic impact measured. The weighted scale for each economic and
-financing measurement is provided in the table below.
-
-
-                               Weighted Ranking System
-                               LB1024 Grant Applications
-                                                                       # of
-                       Economic Impact Measurement                    Total
-
-                       Construction Phase                              10%
-
-                       Operational Phase
-                        Total Output                                   20%
-                        Jobs / Employment                              20%
-                        Payroll / Wages                                20%
-                        State Income Taxes                              5%
-
-                       Leveraging of Additional Project Investment     25%
-
-                       Total                                          100%
-
-A scoring system of 0 to 5 was applied to each economic benefit measured for the grant
-applications, with zero having no benefit and 5 having the greatest benefit. The score was then
-applied to the weighted ranking system outlined in the table above to arrive at a single numeral
-score for each grant application.
-
-In the selection process of the submitted project applications, to achieve the goal of building
-generational wealth the selected recipients should represent a broad spectrum of needs, including
-education and training, social and health services, jobs, housing, and support services.
-
-
-
-
-Canyon Research Southwest, Inc.                                                                  2
-Canyon Research Southwest, Inc.   3
-              ECONOMIC IMPACT ASSESSMENT
-Economic impact estimates associated with each LB1024 grant applications include:
-
-   •   Annual gross output
-
-   •   Direct and indirect temporary construction jobs, payroll, and state withholding taxes
-
-   •   Indirect and indirect permanent jobs, payroll, and state withholding taxes
-
-The Economic Impact Assessment examines the economic implications in terms of annual gross
-output and the direct and indirect growth in employment and income. The economic impact of the
-LB1024 grant applications were measured in terms of both construction-phase and operational.
-
-Direct impacts measure the job creation and wages that occurs as a direct result of the operations
-and activities associated with each LB1024 grant application. Indirect impacts consist of re-
-spending of the initial or direct expenditures, or the supply of goods or services resulting from the
-initial direct spending associated with each grant application.
-
-An Input-Output Model was utilized in calculating the economic impact of each LB1024 grant
-application. Model input regarding project investment, grant request, jobs created, and wages was
-garnered from reviewing each grant application.
-
-The Input-Output Model estimated construction jobs and wages by applying the project costs in
-each grant application to standard labor ratios and construction wages in the Omaha-Council Bluffs
-MSA. Full-time equivalent permanent job creation and wages were estimated based on
-information provided by the LB1024 grant applications as well as employment ratios by real estate
-and business type.
-
-Wages were determined by consulting the Occupational Employment and Wage Estimates May
-2021 for the Omaha-Council Bluffs MSA published by the U.S. Department of Labor as well as
-information provided by the grant applications. Annual mean incomes of relevant occupations per
-grant application plan were applied to the job creation estimates to arrive at total payroll. The
-annual mean income for Omaha-Council Bluffs MSA is $54,980. Annual median incomes by
-principal profession are outlined in the table on the following page.
-
-Multipliers provide a measure of the economic effects on local demand shocks on gross output.
-The annual gross output for each LB1024 grant application was estimated using multipliers
-produced by the Regional Input-Output Modeling System (RIMS II), published by the U.S. Bureau
-of Economic Analysis. RIMS II as a regional economic model is a tool used by investors, planners,
-and elected officials to objectively assess the potential economic impacts of various projects. This
-model produces multipliers that are used in economic impact studies to estimate the total impact
-of a project on a region.
-
-
-
-
-Canyon Research Southwest, Inc.                                                                    4
-                  Annual Median Incomes for Principal Professions
-                      Omaha-Council Bluffs MSA; May 2021
-                                                                          Mean
-               Occupation                                                 Wage
-
-               All Occupations                                            $54,980
-               Management                                                $107,450
-               Business & Financial                                       $72,590
-               Computer & Mathematical                                    $85,130
-               Architecture & Engineering                                 $80,360
-               Community & Social Services                                $48,860
-               Legal                                                      $90,480
-               Educational Instruction                                    $58,110
-               Art, Design & Entertainment                                $51,480
-               Healthcare Practitioners                                   $96,850
-               Healthcare Support                                         $33,400
-               Protective Services                                        $54,320
-               Food Preparation & Service                                 $27,620
-               Building Cleaning & Maintenance                            $32,440
-               Personal Care                                              $31,210
-               Sales & Related Occupations                                $44,210
-               Office & Administrative Support                            $41,160
-               Construction                                               $51,350
-               Installation, Maintenance & Repair                         $51,040
-               Transportation & Material Moving                           $42,350
-               Source: U.S. Bureau of Labor Statistics.
-
-
-This analysis estimated State of Nebraska personal income taxes for the construction and
-operational jobs generated by the LB1024 grant applications. Income taxes were estimated for
-both direct and indirect jobs creation.
-
-The State of Nebraska imposed a four-bracket structure for individual state income taxes. For tax
-year 2022 the tax rate is 2.46 percent for the bottom bracket for income of less than $3,000 for
-singles and $6,000 for married couples filing jointly. The tax rate for the second bracket of 3.51
-percent applies to incomes of $3,000 to $17,999 for singles and $6,000 to $35,999 for married
-couples filing jointly. The tax rate for the third bracket of 5.01 percent applies to incomes of
-$18,000 to $28,999 for singles and $36,000 to $57,999 for married couples filing jointly. The top
-bracket at 6.84 percent for income over $29,000 for singles and $58,000 for married couples filing
-jointly.
-
-LB 873 reduces the maximum tax rate of 6.84 percent for the income tax imposed on individuals
-and fiduciaries for taxable years beginning on or after January 1, 2023. The maximum tax rate
-will decline from 6.64 percent in tax year 2023 to 5.84 percent by tax year 2027. This analysis
-applies the 2023 adjusted tax rate of 6.64 percent.
-
-
-Canyon Research Southwest, Inc.                                                                 5
-Nebraska allows itemized deductions and taxpayers can claim the same itemized deductions
-reported on the Federal return. Standard deductions are $7,000 for singles or married filing
-separately and $14,200 for married couples filing jointly. This analysis applied the standard
-deduction for singles of $7,000. Nebraska has no personal exemption.
-
-Group 1 Projects: Less than $5,000,000
-A total of 201 grant applications were received where project investment totaled less than $5.0
-million. The weighted ranking for each grant application is provided in a separate spreadsheet.
-
-Group 2 Projects: $5,000,000 to $25,000,000
-A total of 104 grant applications were received where project investment totaled $5.0 million to
-$25.0 million. The weighted ranking for each grant application is provided in a separate
-spreadsheet.
-
-Group 3 Projects: $25,000,000 to $50,000,000
-A total of 34 grant applications were received where project investment totaled $25.0 million to
-$50.0 million. The weighted ranking for each grant application is provided in a separate
-spreadsheet.
-
-Group 4 Projects: $50,000,000 and More
-A total of 28 grant applications were received where project investment totaled $50.0 million or
-more. The weighted ranking for each grant application is provided in a separate spreadsheet.
-
-
-
-
-Canyon Research Southwest, Inc.                                                               6
-                                                                                Grant       Construction          Operational Phase Rankings        Total
-Application                                         Project       Grant       Leveraging   Phase Ranking   Output   Jobs      Payroll State Taxes   Score
-  Number Applicant                                   Cost        Request         25%           10%          20%     20%        20%          5%      1 to 5
-
-     4    CB Designs                                   $20,000      $20,000     0.25           0.00         1.00     1.00      0.80       0.05      3.10
-     5    Lanrex LLC                                $2,000,000   $2,000,000     0.25           0.23         0.60     0.60      0.60       0.05      2.33
-     6    Southern Spoon LLC                         $500,000     $499,999      0.25           0.23         1.00     1.00      1.00       0.20      3.68
-     7    Money World Trucking                       $248,000     $248,000      0.25           0.00         1.00     1.00      0.60       0.15      3.00
-     8    SC‐3535 LLC                                $208,000     $208,000      0.25           0.17         1.00     1.00      0.80       0.20      3.42
-     9    Educando Child Care Center                 $120,000     $120,000      0.25           0.23         1.00     1.00      0.00       0.25      2.73
-    10    Lawrence T. Butler                         $538,450     $260,450      0.50           0.27         1.00     1.00      0.00       0.25      3.02
-    12    Habitat for Humanity                      $2,915,200   $2,800,000     0.25           0.23         1.00     0.00      0.00       0.00      1.48
-    17    Destiny Elevate Excelence LLC                $50,000   $1,000,000     0.00           0.00         1.00     1.00      0.80       0.20      3.00
-    18    Styles of Evolution                          $84,548    $319,350      0.00           0.00         1.00     1.00      0.80       0.15      2.95
-    19    Elton & Connie Edmond                     $1,667,500   $1,617,500     0.25           0.20         1.00     1.00      0.80       0.20      3.45
-    21    Omaha Awakening Center                     $100,000     $100,000      0.25           0.00         1.00     1.00      1.00       0.20      3.45
-    22    Coleman Construction Training Institute   $3,500,000   $3,500,000     0.25           0.00         1.00     1.00      1.00       0.25      3.50
-    25    Partnership 4 Kids                         $133,750     $133,750      0.25           0.00         1.00     0.00      0.00       0.00      1.25
-    27    Notre Dame Housing                         $500,000     $500,000      0.25           0.23         0.00     0.00      0.00       0.00      0.48
-    28    Nebraska Early Childhood Collaborative    $4,000,000   $3,250,000     0.25           0.10         1.00     1.00      0.80       0.20      3.35
-    29    Ebony Patriot, LLC                         $735,000     $735,000      0.25           0.13         0.80     1.00      0.80       0.20      3.18
-    31    Partnership 4 Kids                        $3,858,618   $2,376,800     0.25           0.00         0.00     0.00      0.00       0.00      0.25
-    33    Intercultural Senior Center               $2,812,674   $1,175,511     0.50           0.00         0.20     0.60      0.20       0.05      1.55
-    34    Habitat for Humanity of Omaha             $3,000,000   $3,000,000     0.25           0.23         0.00     0.00      0.00       0.00      0.48
-    35    I Be Black Girl                           $1,300,000    $512,500      0.50           0.13         0.20     0.80      0.20       0.10      1.93
-    43    DIBS for Kids                             $1,245,186    $924,186      0.25           0.23         0.40     1.00      0.20       0.10      2.18
-    44    City Sprouts                              $2,139,890   $2,139,890     0.25           0.00         0.20     0.60      0.20       0.05      1.30
-    45    White Lotus Group                         $2,099,189   $1,384,311     0.25           0.33         0.20     0.80      0.20       0.10      1.88
-    50    Women's Center for Advancement            $1,792,436   $1,792,436     0.25           0.00         0.00     0.00      0.00       0.00      0.25
-    52    Kids Can Community Center                 $1,821,375   $1,500,000     0.25           0.23         0.60     1.00      0.40       0.10      2.58
-    54    Omaha Municipal Land Bank                  $600,000     $600,000      0.25           0.00         0.00     0.00      0.00       0.00      0.25
-    58    Omaha Municipal Land Bank                 $4,400,000   $4,400,000     0.25           0.20         0.20     0.20      0.20       0.05      1.10
-    61    Edward Breckenridge                         $250,000     $250,000     0.25           0.00         0.80     1.00      0.80       0.15      3.00
-    62    Omaha Municipal Land Bank                 $2,400,000   $2,400,000     0.25           0.23         0.20     0.40      0.20       0.05      1.33
-    63    Kids Can Community Center                         $0           $0     0.00           0.00         0.00     0.00      0.00       0.00      0.00
-    65    Labor of Love Doula Service                  $25,000      $25,000     0.25           0.00         0.00     0.00      0.00       0.00      0.25
-    66    Xclusive Entertainment                    $2,000,000   $2,000,000     0.25           0.20         0.60     1.00      0.40       0.10      2.55
-    68    Chicken Bucket                             $200,000     $200,000      0.25           0.00         1.00     1.00      0.80       0.25      3.30
-    70    Rabble Mill                               $2,575,783    $808,773      0.75           0.33         0.80     1.00      0.40       0.20      3.48
-    72    Boston School of Cosmetology              $1,640,000   $1,500,000     0.25           0.00         0.00     0.00      0.00       0.00      0.25
-    74    Tate Janitorial                              $69,000      $35,000     0.25           0.00         1.00     1.00      1.00       0.20      3.45
-    75    Nebraska Startup Academy                  $1,200,000   $1,200,000     0.25           0.00         1.00     1.00      1.00       0.25      3.50
-    76    Neter Enterprise LLC                      $4,950,000   $4,950,000     0.25           0.17         0.80     1.00      1.00       0.20      3.42
-    80    Department of Education                      $20,000      $20,000     0.25           0.00         0.00     0.00      0.00       0.00      0.25
-    87    Coleman Construction Corp.                $2,500,000   $2,500,000     0.25           0.20         0.00     0.00      0.00       0.00      0.45
-                                                                        Grant       Construction            Operational Phase Rankings        Total
-Application                                 Project       Grant       Leveraging   Phase Ranking   Output     Jobs      Payroll State Taxes   Score
-  Number Applicant                           Cost        Request         25%           10%          20%       20%        20%          5%      1 to 5
-    88    Native Omaha Days                   $350,000 $100,000,000     0.00           0.00         0.20      0.00      0.00       0.00       0.20
-    90    Pacific Engineering               $1,603,000   $1,603,000     0.25           0.23         1.00      1.00      1.00       0.25       3.73
-    91    Universal Soldiers                $1,025,000   $2,000,000     0.00           0.00         0.20      0.60      0.20       0.05       1.05
-    92    Ital Vital Living                 $1,821,687   $1,851,687     0.00           0.00         0.80      1.00      0.80       0.20       2.80
-    93    Ferguson Cooper                           $0   $1,000,000     0.00           0.00         0.00      0.00      0.00       0.00       0.00
-    94    Kool Kids Day Care                   $90,000      $89,999     0.25           0.00         1.00      1.00      1.00       0.20       3.45
-    97    WNQ Inc.                          $1,800,000 $10,000,000      0.00           0.00         0.40      0.80      0.20       0.10       1.50
-    98    Pattys Childcare Center           $1,682,500   $1,500,000     0.25           0.00         1.00      1.00      0.80       0.20       3.25
-    99    Vaughn & Associates               $3,000,000   $3,000,000     0.25           0.00         0.20      0.40      0.20       0.05       1.10
-   101    WCDI Consulting                     $470,000     $400,000     0.25           0.23         0.80      1.00      0.80       0.20       3.28
-   106    Compassion in Action              $2,000,000   $2,000,000     0.25           0.00         0.00      0.00      0.00       0.00       0.25
-   109    Healthy Housing Omaha             $1,904,740   $1,904,740     0.25           0.00         0.20      0.80      0.20       0.05       1.50
-   114    Divine Angels                     $3,000,000   $3,000,000     0.25           0.00         0.80      1.00      0.80       0.15       3.00
-   117    Omaha Data Sciences Academy       $2,875,702   $2,875,702     0.25           0.00         1.00      1.00      1.00       0.25       3.50
-   118    SAVE Program                        $401,100     $200,000     0.50           0.00         1.00      1.00      1.00       0.25       3.75
-   119    Black & Pink National             $3,599,190     $500,000     1.25           0.50         0.20      1.00      0.20       0.10       3.25
-   120    Vaughn & Associates               $3,000,000   $3,000,000     0.25           0.00         0.40      0.80      0.20       0.10       1.75
-   121    Jones II                            $122,250     $122,250     0.25           0.00         1.00      1.00      0.80       0.20       3.25
-   125    24‐2 Child Care Center            $2,000,000     $750,000     0.50           0.00         0.00      0.00      0.00       0.00       0.50
-   126    National Community                  $943,292    $900,093      0.25           0.00         0.00      0.00      0.00       0.00       0.25
-   130    RGRBP‐Legacy Builders             $2,682,000   $1,600,000     0.25           0.27         0.00      0.00      0.00       0.00       0.52
-   131    Own the Pond                       $150,000     $100,000      0.25           0.23         0.00      0.00      0.00       0.00       0.48
-   133    Creighton University              $1,500,000   $1,500,000     0.25           0.00         0.00      0.00      0.00       0.00       0.25
-   139    Descendants of DeWitty, NE           $15,800      $15,800     0.25           0.00         0.00      0.00      0.00       0.00       0.25
-   140    Well Kept Investments              $400,000     $380,000      0.25           0.17         0.00      0.00      0.00       0.00       0.42
-   141    Abide                              $175,000     $125,000      0.25           0.23         0.00      0.00      0.00       0.00       0.48
-   142    JD&P Enterprises                  $2,500,000   $2,000,000     0.25           0.00         0.80      1.00      0.60       0.15       2.80
-   144    Omaha Center for Refuge            $850,000     $850,000      0.25           0.00         0.80      1.00      0.80       0.15       3.00
-   149    Heartland News                     $400,000     $400,000      0.25           0.17         0.00      0.00      0.00       0.00       0.42
-   150    Midlands Latino CDC               $1,996,685   $1,996,685     0.25           0.10         0.20      0.80      0.20       0.05       1.60
-   151    NOC Redevelopment Corporation     $3,700,000   $1,500,000     0.50           0.30         0.80      1.00      0.40       0.10       3.10
-   154    Midlansa Latino CDC                $832,235     $832,235      0.25           0.00         0.80      1.00      0.80       0.20       3.05
-   155    Devine Holdings                   $2,551,000   $2,400,000     0.25           0.23         0.00      0.00      0.00       0.00       0.48
-   157    Beyond the Basics                 $1,000,000 $10,000,000      0.00           0.00         0.00      0.00      0.00       0.00       0.00
-   158    Omaha Municipal Land Bank                 $0           $0     0.00           0.00         0.00      0.00      0.00       0.00       0.00
-   159    Kelly's Complete Auto Detailing      $55,000      $75,000     0.25           0.13         1.00      1.00      1.00       0.25       3.63
-   161    NEWbraska Partners                  $700,000    $500,000      0.25           0.00         0.00      0.00      0.00       0.00       0.25
-   163    Comunidad Maya Pixam Ixim         $1,450,103   $1,350,103     0.25           0.00         1.00      1.00      1.00       0.20       3.45
-   169    GESU Housing                      $2,196,101   $1,196,102     0.25           0.27         0.00      0.00      0.00       0.00       0.52
-   170    NIA Insurance Agency                $300,000   $7,500,000     0.00           0.00         0.00      0.00      0.00       0.00       0.00
-   172    Prospect Hill Cemetary            $1,101,264     $848,925     0.25           0.23         1.00      1.00      0.20       0.10       2.78
-   175    NEWbraska Partners                $3,600,000   $1,630,000     0.50           0.00         0.00      0.00      0.00       0.00       0.50
-   176    True Purpose                       $750,000     $750,000      0.25           0.00         0.00      0.00      0.00       0.00       0.25
-   179    Dean Enterprise                   $1,960,000   $1,960,000     0.25           0.20         0.00      0.00      0.00       0.00       0.45
-   181    House of Darsa                     $892,955     $892,955      0.25           0.10         0.20      1.00      0.20       0.05       1.80
-                                                                                Grant       Construction            Operational Phase Rankings        Total
-Application                                          Project      Grant       Leveraging   Phase Ranking   Output     Jobs      Payroll State Taxes   Score
-  Number      Applicant                               Cost       Request         25%           10%          20%       20%        20%          5%      1 to 5
-    182       The Ham Sandie Shoppe                   $750,000     $750,000      0.25          0.00         0.20      1.00       0.20        0.05      1.70
-    184       White Lotus Group                     $2,971,500   $1,110,000      0.50          0.33         1.00      1.00       1.00        0.25      4.08
-    185       Culxr House                           $2,738,000   $2,738,000      0.25          0.10         0.20      0.80       0.20        0.05      1.60
-    187       Prosperous Homes                      $1,065,000   $1,000,000      0.25          0.13         0.00      0.00       0.00        0.00      0.38
-    189       Jammit Security                          $60,000      $80,000      0.00          0.00         1.00      1.00       1.00        0.20      3.20
-    190       RADIUS                                $3,513,896     $678,545      1.25          0.00         1.00      1.00       1.00        0.25      4.50
-    195       Ella Belle Café on Wheels               $600,000     $750,000      0.25          0.00         1.00      1.00       0.80        0.10      3.15
-    196       United Way of Midlands                  $449,000     $448,999      0.25          0.00         1.00      1.00       1.00        0.20      3.45
-    203       Jim Rib Haven                         $2,000,000   $2,000,000      0.25          0.17         0.40      1.00       0.20        0.10      2.12
-    205       Po Boy Mega Alley                       $250,000     $152,500      0.25          0.10         1.00      1.00       1.00        0.20      3.55
-    206       IT&T Trucking                         $1,163,528   $1,163,528      0.25          0.00         1.00      1.00       1.00        0.25      3.50
-    208       Omaha Association of Black PFF        $3,363,100   $3,213,100      0.25          0.20         0.20      0.40       0.20        0.05      1.30
-    211       Trauma House of Healing                 $473,000     $473,000      0.25          0.00         0.80      1.00       0.80        0.20      3.05
-    212       Nmotion Inc.                            $950,000     $950,000      0.25          0.00         0.80      1.00       0.60        0.10      2.75
-    213       Pattys Childcare Center               $2,000,000   $2,000,000      0.25          0.20         0.80      1.00       0.80        0.10      3.15
-    215       Tranqual Transformations              $3,084,500   $3,084,500      0.25          0.20         0.20      0.60       0.20        0.05      1.50
-    218       Midland University                    $3,542,000   $1,425,820      0.50          0.00         1.00      1.00       1.00        0.25      3.75
-    220       All American Environmental Services     $300,000   $1,000,000      0.00          0.00         0.40      1.00       0.20        0.05      1.65
-    221       Bonita Sims                             $300,000    $300,000       0.25          0.00         0.80      1.00       0.80        0.10      2.95
-    222       The Wellbeing Partners                  $228,397     $209,198      0.25          0.00         0.20      1.00       0.20        0.05      1.70
-    224       Healing Vibes                           $350,000    $349,999       0.25          0.00         0.80      1.00       0.80        0.20      3.05
-    226       Brown Memorial Study Center           $1,233,000     $830,000      0.25          0.00         0.80      1.00       0.80        0.10      2.95
-    230       Latsha Griffin                          $100,000    $100,000       0.25          0.00         1.00      1.00       1.00        0.20      3.45
-    231       King's Landing                        $1,000,000   $1,000,000      0.25          0.17         1.00      1.00       0.80        0.20      3.42
-    233       Jendaya Frazer 50 Ventures            $1,134,692    $452,760       0.50          0.33         0.00      0.00       0.00        0.00      0.83
-    235       Ansell Investments                      $275,000      $27,500      1.25          0.50         0.00      0.00       0.00        0.00      1.75
-    236       The Lund Company                      $4,600,000   $1,500,000      0.75          0.40         0.20      0.60       0.20        0.05      2.20
-    237       JoDavid Harvis                          $250,000    $200,000       0.25          0.23         0.00      0.00       0.00        0.00      0.48
-    239       LCS Neighborhood Association            $200,000    $100,600       0.25          0.27         0.00      0.00       0.00        0.00      0.52
-    240       Lionhead Rentals                      $2,000,000   $2,000,000      0.25          0.17         0.00      0.00       0.00        0.00      0.42
-    242       SAVE Program                            $250,000    $250,000       0.25          0.00         1.00      1.00       1.00        0.25      3.50
-    243       National Woman's Volleyball League    $4,000,000   $3,000,000      0.25          0.20         0.80      1.00       0.80        0.10      3.15
-    247       4urban.org                            $1,800,000    $950,000       0.25          0.00         0.80      1.00       0.80        0.10      2.95
-    250       Binyard Green Clean                     $619,379    $619,379       0.25          0.00         1.00      1.00       1.00        0.20      3.45
-    251       Brown Bean Cup of Joe                 $1,325,400   $1,325,401      0.25          0.10         0.40      1.00       0.20        0.05      2.00
-    253       10,000 Fearless M&W                   $4,825,800   $4,825,800      0.25          0.00         0.40      1.00       0.20        0.10      1.95
-    254       LCS Neighborhood Association            $300,000    $300,000       0.25          0.20         0.00      0.00       0.00        0.00      0.45
-    256       Still Poppin Gourmet Popcorn          $2,000,000   $1,500,000      0.25          0.20         1.00      1.00       1.00        0.20      3.65
-    257       Nebraska Union Indian Health            $623,600    $623,600       0.25          0.00         0.40      1.00       0.20        0.10      1.95
-    259       Men Against Domestic Violence         $2,000,000   $1,594,600      0.25          0.00         0.20      0.80       0.20        0.05      1.50
-    260       Midlands African Chamber              $2,000,000   $2,000,000      0.25          0.20         1.00      1.00       0.80        0.20      3.45
-    261       Diversify the Pie                       $694,000    $694,000       0.25          0.00         1.00      1.00       0.80        0.20      3.25
-    262       Joseph Colony Inc.                      $750,000    $750,000       0.25          0.00         0.00      0.00       0.00        0.00      0.25
-    265       Cultivating Paths Counseling            $245,494    $300,000       0.00          0.00         1.00      1.00       0.80        0.20      3.00
-    266       Legacy Demolition                       $315,000    $315,000       0.25          0.00         1.00      1.00       1.00        0.25      3.50
-                                                                               Grant       Construction            Operational Phase Rankings        Total
-Application                                        Project       Grant       Leveraging   Phase Ranking   Output     Jobs      Payroll State Taxes   Score
-  Number      Applicant                             Cost        Request         25%           10%          20%       20%        20%          5%      1 to 5
-    269       SheMate                             $4,000,000    $3,000,000      0.25          0.10         0.20      0.80       0.20        0.05      1.60
-    270       FBJ Logistics                       $2,000,000    $1,999,999      0.25          0.00         0.20      0.80       0.20        0.05      1.50
-    272       Ren Mind                            $2,500,000    $1,750,000      0.25          0.00         0.20      0.60       0.20        0.05      1.30
-    273       Leading Edge Entreprenuer              $60,449       $36,269      0.25          0.00         0.80      1.00       0.80        0.15      3.00
-    275       Discovery Dream School                $533,000      $533,000      0.25          0.00         1.00      1.00       0.80        0.20      3.25
-    276       Capture Development                 $2,000,000    $1,000,000      0.50          0.00         1.00      1.00       0.80        0.20      3.50
-    278       Cali Commons                          $454,715      $734,716      0.00          0.00         0.20      0.80       0.20        0.05      1.25
-    280       Omaha Documenters                   $1,656,900      $990,000      0.25          0.00         0.20      1.00       0.20        0.10      1.75
-    281       Big Mama's Kitchen                    $500,000      $500,000      0.25          0.00         0.80      1.00       0.60        0.15      2.80
-    283       Peace Love Smoothies                  $304,500     $294,500       0.25          0.00         0.60      1.00       0.40        0.10      2.35
-    284       NEWbraska Partners                    $720,000      $510,000      0.25          0.00         0.00      0.00       0.00        0.00      0.25
-    285       Results Sports & Fitness            $1,450,000    $1,100,000      0.25          0.00         0.80      1.00       0.80        0.15      3.00
-    286       North Omaha Architecture                     $0     $250,000      0.00          0.00         1.00      1.00       1.00        0.20      3.20
-    290       La Casa Del Pueblo                    $642,150      $469,000      0.25          0.10         1.00      1.00       0.80        0.20      3.35
-    291       Moorish Enterprises                 $2,000,000    $2,000,000      0.25          0.13         0.00      0.00       0.00        0.00      0.38
-    292       Empowering Kids Academy             $2,600,000    $2,600,000      0.25          0.17         0.80      1.00       0.60        0.15      2.97
-    295       Purely Sense                        $2,500,000    $2,500,000      0.25          0.00         0.20      0.60       0.20        0.05      1.30
-    296       Whispering Roots                    $2,769,146    $1,587,116      0.25          0.00         0.20      0.80       0.20        0.10      1.55
-    297       Mount Moriah Baptist Church         $3,982,875    $3,500,000      0.25          0.20         0.20      0.80       0.20        0.05      1.70
-    298       The Legacy Empowerment                $300,000      $150,000      0.50          0.00         0.00      0.00       0.00        0.00      0.50
-    299       Omaha Community Broadcasting        $2,792,300    $2,792,300      0.25          0.00         0.40      1.00       0.20        0.10      1.95
-    302       Ybusiness Solutions                   $825,000     $825,000       0.25          0.00         0.80      1.00       0.80        0.15      3.00
-    304       SA Consulting                         $800,000    $5,000,000      0.00          0.20         0.20      0.60       0.20        0.05      1.25
-    306       Banister's Leadership Academy       $2,577,500      $100,000      1.25          0.00         1.00      1.00       1.00        0.20      4.45
-    307       QUEENS Butterfly House                       $0   $1,000,000      0.00          0.00         0.20      0.80       0.20        0.05      1.25
-    308       Don's Barbershop                      $525,500      $525,500      0.25          0.20         0.00      0.00       0.00        0.00      0.45
-    309       Binyard LLC                           $899,716      $337,970      0.50          0.37         0.00      0.00       0.00        0.00      0.87
-    311       Excellence Home Renovation          $3,500,000    $3,500,000      0.25          0.13         0.00      0.00       0.00        0.00      0.38
-    312       The AIM Institute                     $499,958      $499,958      0.25          0.00         0.40      1.00       0.40        0.10      2.15
-    313       Demo Lives Multimedia               $1,000,000     $750,000       0.25          0.00         0.00      0.00       0.00        0.00      0.25
-    315       Jamilah Johnson                       $145,330     $145,330       0.25          0.23         0.00      0.00       0.00        0.00      0.48
-    316       Brittany's Balance                    $160,000      $159,997      0.25          0.00         1.00      1.00       1.00        0.20      3.45
-    317       Jermaine Rucker                       $200,000      $100,000      0.50          0.23         0.00      0.00       0.00        0.00      0.73
-    318       Omaha Arts Council                  $1,634,000    $1,634,000      0.25          0.13         0.00      0.00       0.00        0.00      0.38
-    319       No Worries Property Solutions         $300,000     $300,000       0.25          0.00         0.80      1.00       0.80        0.20      3.05
-    320       Nebraska Urban Indian Health          $636,215      $636,215      0.25          0.13         0.00      0.00       0.00        0.00      0.38
-    321       Spotlight Comedy House                $400,000      $400,000      0.25          0.00         0.20      0.80       0.20        0.05      1.50
-    322       Jerry Johnson                          $92,080       $92,079      0.25          0.27         0.00      0.00       0.00        0.00      0.52
-    325       Valentine‐Shirley LLC               $3,500,000    $3,000,000      0.25          0.10         0.80      1.00       0.80        0.15      3.10
-    326       Carnation Place                     $1,500,000    $1,500,000      0.25          0.20         1.00      1.00       0.80        0.20      3.45
-    327       Aleeca's Sugar Shoppe               $3,000,000    $2,975,000      0.25          0.00         0.40      0.80       0.20        0.10      1.75
-    328       Edmonson Youth Outreach               $700,000      $699,996      0.25          0.00         0.40      1.00       0.20        0.10      1.95
-    330       North Omaha Community Partnership   $3,170,000    $3,170,000      0.25          0.00         0.40      1.00       0.20        0.10      1.95
-    331       The Creative Impulse                  $673,608      $673,608      0.25          0.10         0.20      1.00       0.20        0.05      1.80
-    333       Destiny Café                          $754,500      $700,000      0.25          0.10         0.80      1.00       0.80        0.15      3.10
-                                                                                 Grant       Construction            Operational Phase Rankings        Total
-Application                                           Project      Grant       Leveraging   Phase Ranking   Output     Jobs      Payroll State Taxes   Score
-  Number      Applicant                                Cost       Request         25%           10%          20%       20%        20%          5%      1 to 5
-    335       Leaders to Legends                     $4,000,000   $2,000,000      0.50          0.00         0.80      1.00       0.80        0.20      3.30
-    337       East African Development Association   $1,300,000   $1,300,000      0.25          0.10         0.80      1.00       0.40        0.15      2.70
-    338       Ivy League Youth Sports Academy          $800,000   $1,000,000      0.00          0.00         1.00      1.00       1.00        0.25      3.25
-    339       Natasha L. Coanner                     $1,300,000   $1,300,000      0.25          0.13         0.00      0.00       0.00        0.00      0.38
-    340       Ontic Properties                       $4,150,000   $3,550,000      0.25          0.10         0.00      0.00       0.00        0.00      0.35
-    342       Skatefest Omaha                        $2,114,880   $2,114,880      0.25          0.13         0.20      0.80       0.20        0.05      1.63
-    343       Elisha Rodriguez                       $2,850,000     $560,000      1.25          0.43         0.00      0.00       0.00        0.00      1.68
-    344       Accessory Homes                        $2,344,418   $2,344,418      0.25          0.13         0.00      0.00       0.00        0.00      0.38
-    345       1st Sky Omaha                          $3,949,900   $1,844,300      0.50          0.00         0.20      0.80       0.20        0.05      1.75
-    347       Charmaine Morton                       $1,000,000     $100,000      1.25          0.50         0.00      0.00       0.00        0.00      1.75
-    348       DGM Fitness Studio                       $800,000    $800,000       0.25          0.10         0.60      1.00       0.40        0.10      2.45
-    350       Davie's Dojo                             $799,500    $623,500       0.25          0.00         0.20      1.00       0.20        0.10      1.75
-    351       National Community                     $1,990,093   $1,946,894      0.25          0.10         0.80      1.00       0.80        0.20      3.15
-    352       Heartland Workers Center               $1,598,574   $1,398,574      0.25          0.00         0.80      1.00       0.80        0.15      3.00
-    357       Roofs, Walls & All                     $3,000,000   $2,999,997      0.25          0.00         0.00      0.00       0.00        0.00      0.25
-    358       Bobby Byars Foundation                 $1,123,000   $1,123,000      0.25          0.10         0.20      0.60       0.20        0.05      1.40
-    359       1966                                     $350,000     $300,000      0.25          0.13         0.00      0.00       0.00        0.00      0.38
-    360       Complete Technologies                  $2,123,094   $1,416,094      0.25          0.00         0.00      0.00       0.00        0.00      0.25
-    362       Legacy Staff Solutions                 $1,715,000   $1,715,000      0.25          0.00         1.00      1.00       1.00        0.25      3.50
-    363       Scholarship Fund                       $2,500,000   $2,500,000      0.25          0.00         0.00      0.00       0.00        0.00      0.25
-    364       Mentoring Plus                           $281,351    $281,351       0.25          0.00         0.00      0.00       0.00        0.00      0.25
-    366       CC Visions LLC                         $1,689,482   $1,581,382      0.25          0.00         0.20      1.00       0.40        0.10      1.95
-    367       Historic North Omaha Center            $3,000,000   $3,000,000      0.25          0.10         0.80      1.00       0.60        0.15      2.90
-    368       Guiding Light Foundation                 $357,920    $357,920       0.25          0.00         1.00      1.00       0.80        0.20      3.25
-    369       Treadstone Activity Center               $771,163    $771,163       0.25          0.00         0.80      1.00       0.80        0.20      3.05
-    370       WS Food Supplies LLC                     $800,000    $400,000       0.50          0.00         1.00      1.00       1.00        0.20      3.70
                                                                                   Project Budget   Project
 Application                                              Project      Grant          vs. Grant     Ranking
   Number      Applicant                                   Cost       Request      Funding Ratio     1 to 5
