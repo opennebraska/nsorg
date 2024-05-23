@@ -14,7 +14,7 @@ pages = [
   "13,14,15,16,17",     # First table
   "18,19,20,21,22,23",  # Second table
   "24,25,26,27",        # Third table
-  "28,29,30,31",        # Fourth table
+  # "28,29,30,31",        # Fourth table
 ]
 pages = ','.join(pages)
 
@@ -23,6 +23,7 @@ tables = camelot.read_pdf("appendix_f.pdf", pages=pages)
 print("read_pdf() is done")
 i = 0
 for table in tables:
+  # Kick out JSON files so we can inspect them to see how disappointed (or not) we are in Camelot.
   table.to_json(str(i) + ".json")
   i += 1
 
@@ -184,36 +185,35 @@ this_df = drop_columns_that_dont_split(this_df)
 this_df = split(this_df)
 this_df = explode(this_df)
 # Success: we now have PDF page 17
-df1 = pd.concat([df1, this_df])
+df1 = pd.concat([df1, this_df]).reset_index(drop=True)
 print(df1)
 
-# PDF page 18 (dataframe 3) begins the second set of tabular data:
+# PDF page 18 begins the second set of tabular data:
 df2 = dataframes[3]
 df2 = df2.drop([0])  # Drop header row. PDF is a mess.
 df2 = drop_columns_that_dont_split(df2)
-print(df2)
-
 df2 = split(df2)
-print(df2)
-# Gah, the PDF has a blank so the list is 1 element short of the length of the others. 
-# We need to fill that blank with None or explode() is going to explode()
-# (in a runtime error sort of way, not the way we want)
+# Gah, the PDF has a blank so the list is 1 element short of the length of the others.
+# We need to fill that blank with None or explode() is going to explode.
+# In a runtime error sort of way, not the way we want. ;)
 df2.iat[0, 4].insert(30, None)
-print(df2)
-
-# Add a new row to ensure there's room to shift values down
-# df2.loc[len(df)] = [None] * df2.shape[1]
-# Shift values in column 6 from row 33 down
-# df.loc[34:, 'Column6'] = df.loc[33:, 'Column6'].shift(1)
-# df2.iloc[30:, 4] = df2.iloc[29:, 4].shift(1)
-# Insert the new value at column 6, row 33
-# df2.iloc[30, 4] = None
-
 df2 = explode(df2)
+
+# PDF page 23
+this_df = dataframes[4]
+this_df = this_df.drop([1])  # Drop footer row. PDF is a mess.
+this_df = drop_columns_that_dont_split(this_df)
+this_df = split(this_df)
+this_df = explode(this_df)
+df2 = pd.concat([df2, this_df]).reset_index(drop=True)
 print(df2)
 
-print("What is dataframe 8?")
-print(dataframes[8])
+# PDF page 24
+# OH DEAR DOG THIS IS A BLANKNESS NIGHTMARE that Camelot above detects absolutely no
+# blankness in...
+this_df = dataframes[5]
+this_df = this_df.drop([0])  # Drop header row. PDF is a mess.
+print(this_df)
 
 
 # The first actual dataframe we want to extract is 4..8 from the messy set of all dataframes extracted above
