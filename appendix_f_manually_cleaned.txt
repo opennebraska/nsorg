@@ -590,13 +590,6 @@ Application                                           Grant       Construction J
   326    Carnation Place                      $1,500,000          8         3         11        $187,500      2        $407,838 $164,736     $572,574     27.19%      2       $23,577    $9,647    $33,224      1.57%      2        2.00
   327    Aleeca's Sugar Shoppe                $2,975,000                                                                                                                                                                            0.00
   328    Edmonson Youth Outreach               $699,996                                                                                                                                                                             0.00
-
-
-
-
-                                                                                                                                         Jobs                                       Grant vs.    Direct                                  Grant vs.    State    Average
-Application                                                         Grant           Construction Jobs                      Cost Per    Creation   Construction Payroll               Direct     Payroll   State Income Taxes              Direct       Tax      Total
- Number Applicant                                                  Request          Direct    Indirect       Total        Direct Job   Ranking     Direct     Indirect   Total       Payroll    Ranking   Direct    Indirect   Total      Taxes      Ranking    Score
   330    North Omaha Community Partnership                         $3,170,000                                                                                                                                                                                   0.00
   331    The Creative Impulse                                        $673,608              0.5        0.25      0.75      $1,347,216      1         $17,945     $7,248    $25,193      2.66%      1        $1,037     $424      $1,461      0.15%      1        1.00
   333    Destiny Café                                                $700,000                1           1         2       $700,000       1         $71,779    $28,994   $100,773     10.25%      1        $4,150    $1,698     $5,848      0.59%      1        1.00
@@ -626,34 +619,10 @@ Application                                                         Grant       
   368    Guiding Light Foundation                                   $357,920                                                                                                                                                                                    0.00
   369    Treadstone Activity Center                                 $771,163                                                                                                                                                                                    0.00
   370    WS Food Supplies LLC                                       $400,000                                                                                                                                                                                    0.00
-         Low Score                                                                                                                $0                                                  24.51%                                                1.40%
-         High Score                                                                                                         $205,882                                                   0.00%                                                0.00%
-         Average Score                                                                                                       $65,991                                                   9.42%                                                0.54%
-
-         Those applications highlighted in "gray" has insufficient information to calculate impact.
-
-
-         Cost Per Job
-         Score of 1 = $200,000 or more
-         Score of 2 = $150,000 to $199,999
-         Score of 3 = $100,000 to $149,999
-         Score of 4 = $50,000 to $99,999
-         Score of 5 = Less than $50,000
-
-         Direct Payroll
-         Score of 1 = Less than 25%
-         Score of 2 = 25% to 50%
-         Score of 3 = 50% to 75%
-         Score of 4 = 75% to 100%
-         Score of 5 = 100% or more
-
-         State Income Tax
-         Score of 1 = Under 1%
-         Score of 2 = 1% to 2.99%
-         Score of 3 = 3% to 4.99%
-         Score of 4 = 5.0% to 6.99%
-         Score of 5 = Over 6%
-                                                                                 Annual       Output    Annual                                                       Jobs                                          Grant vs.    Direct                                  Grant vs.    State
+  
+  
+  
+                                                                                  Annual       Output    Annual                                                       Jobs                                          Grant vs.    Direct                                  Grant vs.    State
 Application                                              Project     Grant       Project     to Grant   Output    Operational FTE Jobs                 Cost Per    Creation      Annual Payroll                     Direct     Payroll   State Income Taxes              Direct       Tax
   Number      Applicant                                   Cost      Request      Output         %       Ranking    Direct     Indirect   Total        Direct Job   Ranking      Direct     Indirect     Total       Payroll    Ranking   Direct    Indirect   Total      Taxes      Ranking
 
@@ -717,9 +686,6 @@ Application                                              Project     Grant      
     120       Vaughn & Associates                       $3,000,000  $3,000,000   $972,000     32.4%       2              12         12       24        $250,000       4         $720,000 $492,207 $1,212,207         24.00%      1        $42,230 $27,312 $69,542          1.41%      2
     121       Jones II                                   $122,250    $122,250    $138,000    112.9%       5               3          1        4         $40,750       5           $86,600    $33,785   $120,385      70.84%      4         $4,356   $1,875   $6,231        3.56%      4
     125       24‐2 Child Care Center                    $2,000,000    $750,000
-                                                                               Annual        Output    Annual                                                       Jobs                                          Grant vs.    Direct                                  Grant vs.    State
-Application                                          Project      Grant        Project      to Grant   Output    Operational FTE Jobs                 Cost Per    Creation     Annual Payroll                      Direct     Payroll   State Income Taxes              Direct       Tax
-  Number      Applicant                               Cost       Request       Output          %       Ranking    Direct     Indirect   Total        Direct Job   Ranking     Direct     Indirect      Total       Payroll    Ranking   Direct    Indirect   Total      Taxes      Ranking
     126       National Community                     $943,292      $900,093
     130       RGRBP‐Legacy Builders                 $2,682,000    $1,600,000
     131       Own the Pond                           $150,000      $100,000
@@ -784,9 +750,6 @@ Application                                          Project      Grant        P
     253       10,000 Fearless M&W                   $4,825,800    $4,825,800   $1,640,000    34.0%       2              24          7           31    $201,075       5       $1,172,640   $270,280   $1,442,920     24.30%      1        $66,708   $14,857 $81,565        1.38%       2
     254       LCS Neighborhood Association           $300,000      $300,000
     256       Still Poppin Gourmet Popcorn          $2,000,000    $1,500,000   $2,940,000   196.0%       5              50         41           91     $30,000       5       $2,100,000 $1,698,160 $3,798,160      140.00%       5      $116,200   $93,892 $210,092       7.75%       4
-                                                                               Annual        Output    Annual                                                       Jobs                                          Grant vs.    Direct                                   Grant vs.    State
-Application                                           Project      Grant       Project      to Grant   Output    Operational FTE Jobs                 Cost Per    Creation     Annual Payroll                      Direct     Payroll   State Income Taxes               Direct       Tax
-  Number      Applicant                                Cost       Request      Output          %       Ranking    Direct     Indirect   Total        Direct Job   Ranking     Direct     Indirect      Total       Payroll    Ranking   Direct    Indirect    Total      Taxes      Ranking
     257       Nebraska Union Indian Health            $623,600     $623,600     $216,000    34.6%        2               4          1            5    $155,900       5        $160,000     $52,969  $212,969        25.66%      1         $8,765    $2,953 $11,718         1.41%      2
     259       Men Against Domestic Violence          $2,000,000   $1,594,600    $350,000    21.9%        1               4          3            7    $398,650       4        $250,000    $135,853  $385,853        15.68%      1        $14,741    $7,511 $22,252         0.92%      1
     260       Midlands African Chamber               $2,000,000   $2,000,000   $2,268,000   113.4%       5              30          8           38     $66,667       5       $1,620,000   $337,850 $1,957,850       81.00%      4        $93,624   $18,571 $112,195        4.68%      4
@@ -851,9 +814,6 @@ Application                                           Project      Grant       P
     347       Charmaine Morton                       $1,000,000     $100,000
     348       DGM Fitness Studio                      $800,000     $800,000     $340,000     42.5%       3               8          2           10    $100,000       5        $243,000     $98,497    $341,497      30.38%      2         $9,669    $5,489    $15,158      1.21%      2
     350       Davie's Dojo                             $799,500    $623,500     $177,000     28.4%       1               3          1            4    $207,833       5        $131,250     $32,698    $163,948      21.05%      1         $6,285    $1,777     $8,062      1.01%      2
-                                                                                                           Annual        Output     Annual                                                       Jobs                                        Grant vs.    Direct                                 Grant vs.    State
-Application                                                               Project           Grant          Project      to Grant    Output    Operational FTE Jobs                 Cost Per    Creation     Annual Payroll                    Direct     Payroll   State Income Taxes             Direct       Tax
-  Number      Applicant                                                    Cost            Request         Output          %        Ranking    Direct     Indirect   Total        Direct Job   Ranking     Direct     Indirect    Total       Payroll    Ranking   Direct    Indirect   Total     Taxes      Ranking
     351       National Community                                         $1,990,093         $1,946,894     $1,680,000    86.3%        4              20         19           39     $97,345       5       $1,200,000   $820,345 $2,020,345     61.64%      4        $70,384   $45,520 $115,904      3.62%       4
     352       Heartland Workers Center                                   $1,598,574         $1,398,574      $980,000     70.1%        4              13         11           24    $107,583       5        $700,000    $441,522 $1,141,522     50.05%      4        $40,437   $24,412 $64,849       2.89%       3
     357       Roofs, Walls & All                                         $3,000,000         $2,999,997
@@ -868,41 +828,11 @@ Application                                                               Projec
     368       Guiding Light Foundation                                    $357,920           $357,920       $364,000    101.7%        5               6          2            8      $59,653      5        $270,000     $67,570  $337,570      75.44%      4       $15,139     $3,714 $18,853       4.23%      4
     369       Treadstone Activity Center                                   $771,163          $771,163       $739,000     95.8%        4              12         10           22      $64,264      5        $528,000    $407,558  $935,558      68.47%      4       $61,420    $22,534 $83,954       7.96%      4
     370       WS Food Supplies LLC                                        $800,000           $400,000      $1,120,000   280.0%        5              20         16           36      $20,000      5        $720,000    $679,264 $1,399,264    180.00%      5       $38,512    $37,557 $76,069       9.63%      4
-              Low Score                                                                                                     2.07%                                                     $7,059                                                    1.48%                                               0.10%
-              High Score                                                                                                1076.67%                                                  $4,400,000                                                  541.67%                                              32.09%
-              Average Score                                                                                                88.55%                                                   $137,990                                                   57.95%                                               2.29%
-
-              Those applications highlighted in "gray" has insufficient information to calculate impact.
 
 
-              Project Output
-              Score of 1 = Less than 30%
-              Score of 2 = 30% to 40%
-              Score of 3 = 40% to 50%
-              Score of 4 = 50% to 100%
-              Score of 5 = 100% or more
 
-              Cost Per Job
-              Score of 1 = $2,000,000 or more
-              Score of 2 = $1,000,000 to $1,999,999
-              Score of 3 = $500,000 to $999,999
-              Score of 4 = $250,000 to $499,999
-              Score of 5 = Less than $250,000
 
-              Direct Payroll
-              Score of 1 = Less than 30%
-              Score of 2 = 30% to 40%
-              Score of 3 = 40% to 50%
-              Score of 4 = 50% to 100%
-              Score of 5 = 100% or more
-
-              State Income Tax
-              Score of 1 = Under 1.0%
-              Score of 2 = 1.0% to 1.99%
-              Score of 3 = 2.0% to 2.99%
-              Score of 4 = 3.0% to 9.99%
-              Score of 5 = Over 10.0%
-                                                                                Annual        Output    Project                                                           Jobs                                              Grant vs.    Direct                                        Grant vs.    State
+                                                                                Annual        Output    Project                                                           Jobs                                              Grant vs.    Direct                                        Grant vs.    State
 Application                                          Project       Grant        Project      to Grant   Output    Operational FTE Jobs                      Cost Per    Creation     Annual Payroll                          Direct     Payroll    State Income Taxes                   Direct       Tax
   Number      Applicant                               Cost        Request       Output          %       Ranking    Direct      Indirect       Total        Direct Job   Ranking     Direct       Indirect       Total        Payroll    Ranking    Direct     Indirect      Total       Taxes      Ranking
 
@@ -979,10 +909,6 @@ Application                                          Project       Grant        
     219       Partnership Collective Development    $22,600,000   $9,300,000    $5,120,000      55.1%     5                84        68           152        $110,714      5        $3,656,750    $2,852,910   $6,509,660      39.32%     4        $203,766 $157,739       $361,505       2.19%      5
     223       Inner City Change                     $11,802,139   $2,680,300    $1,078,000      40.2%     4              18.5         5          23.5        $144,881      5          $770,000      $208,340     $978,340      28.73%     3         $42,528 $11,452         $53,980       1.59%      5
     225       Transporter                                    $0 $10,000,000
-                                                                                                            Annual        Output    Project                                                         Jobs                                             Grant vs.    Direct                                      Grant vs.    State
-Application                                                               Project             Grant         Project      to Grant   Output    Operational FTE Jobs                   Cost Per     Creation     Annual Payroll                         Direct     Payroll   State Income Taxes                  Direct       Tax
-  Number      Applicant                                                    Cost              Request        Output          %       Ranking    Direct      Indirect    Total        Direct Job    Ranking     Direct       Indirect      Total        Payroll    Ranking   Direct     Indirect    Total        Taxes      Ranking
-
      227      Black Men United                                           $5,900,000          $4,200,000     $3,803,000      38.0%      3               52         45        97         $192,308      5        $2,716,750   $1,766,087   $4,482,837      27.17%      3      $153,222    $97,648    $250,870       1.53%       5
      228      Binyard LLC                                               $23,941,416         $12,999,997       $945,000      22.5%      2               15         12        27         $280,000      5          $675,000     $509,448   $1,184,448      16.07%      2       $37,848    $28,168     $66,016       0.90%       4
      229      Pattys Childcare Center                                    $1,500,000         $15,000,000     $1,176,000       9.0%      1               28          8        36         $464,286      5          $840,000     $315,327   $1,155,327       6.46%      1       $32,264    $17,333     $49,597       0.25%       3
@@ -1014,41 +940,10 @@ Application                                                               Projec
      355      Media King Communications                                 $20,176,306         $20,176,306     $1,260,000      16.8%      1              20         16         36       $1,008,815      3          $900,000     $679,264 $1,579,264        12.00%      2       $50,464 $37,557         $88,021      0.67%       4
      356      Home Team Auto Sales                                       $8,723,081          $6,943,695       $630,000       3.1%      1              11          9         20         $631,245      4          $605,000     $373,595    $978,595        3.00%      1       $35,059 $20,656         $55,715      0.17%       2
      361      LIT                                                       $23,232,035         $23,232,035
-              Low Score                                                                                                     0.32%                                                        $5,000                                                         0.24%                                                    0.01%
-              High Score                                                                                                 1160.00%                                                   $16,666,667                                                       800.00%                                                   43.82%
-              Average Score                                                                                                47.83%                                                      $749,762                                                        33.14%                                                    1.85%
-
-              Those applications highlighted in "gray" has insufficient information to calculate impact.
 
 
-              Project Output
-              Score of 1 = Less than 20%
-              Score of 2 = 20% to 30%
-              Score of 3 = 30% to 40%
-              Score of 4 = 40% to 50%
-              Score of 5 = 50% or more
 
-              Cost Per Job
-              Score of 1 = $2,500,000 or more
-              Score of 2 = $1,500,000 to $2,499,999
-              Score of 3 = $1,000,000 to $1,499,999
-              Score of 4 = $500,000 to $999,999
-              Score of 5 = Less than $500,000
-
-              Direct Payroll
-              Score of 1 = Less than 10%
-              Score of 2 = 10% to 20%
-              Score of 3 = 20% to 30%
-              Score of 4 = 30% to 40%
-              Score of 5 = 40% or more
-
-              State Income Tax
-              Score of 1 = Under 0.10%
-              Score of 2 = 0.11% to 0.20%
-              Score of 3 = 0.21% to 0.49%
-              Score of 4 = 0.50% to 0.99%
-              Score of 5 = Over 1%
-                                                                          Grant       Construction            Operational Phase Rankings         Total
+                                                                          Grant       Construction            Operational Phase Rankings         Total
 Application                                  Project       Grant        Leveraging   Phase Ranking   Output     Jobs       Payroll State Taxes   Score
   Number Applicant                            Cost        Request          25%           10%          20%       20%         20%         5%       1 to 5
 
@@ -1086,7 +981,10 @@ Application                                  Project       Grant        Leveragi
    288    SMB Enterprises                   $30,500,000   $10,000,000      0.75          0.40         0.00       0.00      0.00       0.00       1.15
    293    Jesuit Academy                    $26,390,000    $9,300,000      0.50          0.33         0.20       0.60      0.20       0.15       1.98
    310    The Lund Company                  $46,500,000   $16,500,000      0.50          0.23         0.20       0.60      0.20       0.15       1.88
-                                                                            Project Budget   Project
+
+
+
+                                                                            Project Budget   Project
 Application                                     Project        Grant           vs. Grant     Ranking
   Number      Applicant                         Budget        Request       Funding Ratio     1 to 5
 
@@ -1124,17 +1022,11 @@ Application                                     Project        Grant           v
     288       SMB Enterprises                   $30,500,000   $10,000,000        3.05          3
     293       Jesuit Academy                    $26,390,000    $9,300,000        2.84          2
     310       The Lund Company                  $46,500,000   $16,500,000        2.82          2
-              Low Score                                                          1.00
-              High Score                                                        11.90
-              Average Score                                                      2.36
 
-              Score of 0 = Below 1.00
-              Score of 1 = 1.00 to 1.99
-              Score of 2 = 2.00 to 2.99
-              Score of 3 = 3.00 to 3.99
-              Score of 4 = 4.00 to 4.99
-              Score of 5 = 5.00 or more
-                                                                                                                                     Jobs                                          Grant vs.    Direct                                    Grant vs.     State    Average
+
+
+
+                                                                                                                                     Jobs                                          Grant vs.    Direct                                    Grant vs.     State    Average
 Application                                                            Grant            Construction Jobs              Cost Per    Creation    Construction Payroll                 Direct     Payroll   State Income Taxes                Direct        Tax      Total
   Number Applicant                                                    Request           Direct    Indirect   Total    Direct Job   Ranking      Direct      Indirect    Total       Payroll    Ranking   Direct    Indirect    Total       Taxes       Ranking    Score
 
@@ -1172,34 +1064,11 @@ Application                                                            Grant    
    288    SMB Enterprises                                            $10,000,000              175       64      239     $57,143       4        $9,461,842 $3,821,876 $13,283,718     94.62%      4       $546,985   $223,800   $770,785        5.47%     4        4.00
    293    Jesuit Academy                                              $9,300,000               99       37      136     $93,939       4        $5,376,447 $2,171,682 $7,548,129      57.81%      3       $310,810   $127,169   $437,979        3.34%     3        3.33
    310    The Lund Company                                           $16,500,000              131       60      191    $125,954       3        $6,612,469 $2,840,233 $9,452,702      40.08%      2       $378,717   $160,551   $539,268        2.30%     2        2.33
-          Low Score                                                                                                     $24,194                                                      11.21%                                                    0.31%
-          High Score                                                                                                   $481,618                                                     208.53%                                                   11.92%
-          Average Score                                                                                                $142,103                                                      44.77%                                                    2.58%
-
-          Those applications highlighted in "gray" has insufficient information to calculate impact.
 
 
-          Cost Per Job
-          Score of 1 = $200,000 or more
-          Score of 2 = $150,000 to $199,999
-          Score of 3 = $100,000 to $149,999
-          Score of 4 = $50,000 to $99,999
-          Score of 5 = Less than $50,000
 
-          Direct Payroll
-          Score of 1 = Less than 25%
-          Score of 2 = 25% to 50%
-          Score of 3 = 50% to 75%
-          Score of 4 = 75% to 100%
-          Score of 5 = 100% or more
 
-          State Income Tax
-          Score of 1 = Under 1%
-          Score of 2 = 1% to 2.99%
-          Score of 3 = 3% to 4.99%
-          Score of 4 = 5.0% to 6.99%
-          Score of 5 = Over 6%
-                                                                                                            Annual       Output      Project                                                         Jobs                                             Grant vs.    Direct                                                   State
+                                                                                                            Annual       Output      Project                                                         Jobs                                             Grant vs.    Direct                                                   State
 Application                                                               Project            Grant          Project      to Grant    Output    Operational FTE Jobs                   Cost Per     Creation      Annual Payroll                        Direct     Payroll     State Income Taxes               Grant vs.     Tax
   Number      Applicant                                                    Cost             Request         Output          %        Ranking    Direct      Indirect    Total        Direct Job    Ranking      Direct     Indirect       Total        Payroll    Ranking     Direct     Indirect   Total       Taxes      Ranking
 
@@ -1237,41 +1106,11 @@ Application                                                               Projec
     288       SMB Enterprises                                           $30,500,000        $10,000,000
     293       Jesuit Academy                                            $26,390,000         $9,300,000       $567,000       6.10%      1                8           2           10    $1,162,500      3         $405,000      $90,093     $495,093       4.35%      1         $23,174      $4,952    $28,126       0.30%     3
     310       The Lund Company                                          $46,500,000        $16,500,000       $855,000       5.18%      1               13          11           24    $1,269,231      3         $590,000     $441,522    $1,031,522      3.58%      1         $33,133     $24,412    $57,545       0.35%     3
-              Low Score                                                                                                     1.31%                                                        $13,795                                                         0.44%                                                     0.04%
-              High Score                                                                                                  326.78%                                                    $16,374,999                                                       471.17%                                                    41.53%
-              Average Score                                                                                                22.85%                                                     $1,445,032                                                        26.69%                                                     2.28%
-
-              Those applications highlighted in "gray" has insufficient information to calculate impact.
 
 
-              Project Output
-              Score of 1 = Less than 20%
-              Score of 2 = 20% to 30%
-              Score of 3 = 30% to 40%
-              Score of 4 = 40% to 50%
-              Score of 5 = 50% or more
 
-              Cost Per Job
-              Score of 1 = $2,500,000 or more
-              Score of 2 = $1,500,000 to $2,499,999
-              Score of 3 = $1,000,000 to $1,499,999
-              Score of 4 = $500,000 to $999,999
-              Score of 5 = Less than $500,000
 
-              Direct Payroll
-              Score of 1 = Less than 10%
-              Score of 2 = 10% to 20%
-              Score of 3 = 20% to 30%
-              Score of 4 = 30% to 40%
-              Score of 5 = 40% or more
-
-              State Income Tax
-              Score of 1 = Under 0.10%
-              Score of 2 = 0.11% to 0.20%
-              Score of 3 = 0.21% to 0.49%
-              Score of 4 = 0.50% to 0.99%
-              Score of 5 = Over 1%
-                                                                             Grant       Construction             Operational Phase Rankings        Total
+                                                                             Grant       Construction             Operational Phase Rankings        Total
 Application                                     Project        Grant       Leveraging   Phase Ranking   Output      Jobs      Payroll State Taxes   Score
   Number Applicant                               Cost         Request         25%           10%          20%        20%        20%         5%       1 to 5
 
@@ -1303,7 +1142,11 @@ Application                                     Project        Grant       Lever
    341    Fallen Giants Films                  $150,000,000 $66,000,000       0.50          0.13           0.00        0.00      0.00        0.00      0.63
    353    Quality Well Being Foundation        $150,000,000 $150,000,000      0.25          0.00           0.00        0.00      0.00        0.00      0.25
    365    Empowering Collective                 $60,000,000 $20,000,000       0.75          0.33           0.00        0.00      0.00        0.00      1.08
-                                                                             Project Budget   Project
+
+
+
+
+                                                                             Project Budget   Project
 Application                                     Project         Grant           vs. Grant     Ranking
   Number Applicant                               Cost          Request       Funding Ratio     1 to 5
 
@@ -1335,17 +1178,11 @@ Application                                     Project         Grant           
    341    Fallen Giants Films                  $150,000,000    $66,000,000        2.27          2
    353    Quality Well Being Foundation        $150,000,000   $150,000,000        1.00          1
    365    Empowering Collective                 $60,000,000    $20,000,000        3.00          3
-          Low Score                                                               1.00
-          High Score                                                             11.53
-          Average Score                                                           3.06
 
-          Score of 0 = Below 1.00
-          Score of 1 = 1.00 to 1.99
-          Score of 2 = 2.00 to 2.99
-          Score of 3 = 3.00 to 3.99
-          Score of 4 = 4.00 to 4.99
-          Score of 5 = 5.00 or more
-                                                                                                                                       Jobs                                               Grant vs.    Direct                                        Grant vs.     State    Average
+
+
+
+                                                                                                                                       Jobs                                               Grant vs.    Direct                                        Grant vs.     State    Average
 Application                                                            Grant           Construction Jobs                    Cost Per Creation    Construction Payroll                      Direct     Payroll    State Income Taxes                   Direct        Tax      Total
   Number      Applicant                                               Request          Direct    Indirect        Total     Direct Job Ranking     Direct       Indirect       Total        Payroll    Ranking    Direct     Indirect     Total        Taxes       Ranking    Score
 
@@ -1377,34 +1214,12 @@ Application                                                            Grant    
     341       Fallen Giants Films*                                  $22,345,000               77            28       105   $290,195     1        $4,148,202    $1,675,563    $5,823,765      18.56%     1        $239,868     $98,117    $337,985         1.07%     2        1.33
     353       Quality Well Being Foundation                        $150,000,000
     365       Empowering Collective                                 $20,000,000              277           129      406     $72,202     4       $13,968,370    $6,015,636   $19,984,006      69.84%     3        $798,577    $339,540   $1,138,117       3.99%       3       3.33
-              Low Score                                                                                                     $12,247                                                          13.81%                                                      0.80%
-              High Score                                                                                                   $392,245                                                         411.28%                                                     23.51%
-              Average Score                                                                                                $142,747                                                          76.43%                                                      4.42%
-              Notes* Costs for production studio only.
-              Those applications highlighted in "gray" has insufficient information to calculate impact.
 
 
-              Cost Per Job
-              Score of 1 = $200,000 or more
-              Score of 2 = $150,000 to $199,999
-              Score of 3 = $100,000 to $149,999
-              Score of 4 = $50,000 to $99,999
-              Score of 5 = Less than $50,000
 
-              Direct Payroll
-              Score of 1 = Less than 25%
-              Score of 2 = 25% to 50%
-              Score of 3 = 50% to 75%
-              Score of 4 = 75% to 100%
-              Score of 5 = 100% or more
 
-              State Income Tax
-              Score of 1 = Under 1%
-              Score of 2 = 1% to 2.99%
-              Score of 3 = 3% to 4.99%
-              Score of 4 = 5.0% to 6.99%
-              Score of 5 = Over 6%
-                                                                                                       Annual     Output     Project                                                       Jobs                                                Grant vs.    Direct                                        Grant vs.    State
+
+                                                                                                       Annual     Output     Project                                                       Jobs                                                Grant vs.    Direct                                        Grant vs.    State
 Application                                                        Project             Grant           Project   to Grant    Output    Operational FTE Jobs                  Cost Per    Creation       Annual Payroll                          Direct     Payroll    State Income Taxes                   Direct       Tax
   Number Applicant                                                  Cost              Request          Output       %        Ranking    Direct      Indirect   Total        Direct Job   Ranking      Direct       Indirect       Total         Payroll    Ranking    Direct     Indirect     Total        Taxes      Ranking
 
@@ -1436,38 +1251,4 @@ Application                                                        Project      
    341    Fallen Giants Films                                   $150,000,000 $66,000,000
    353    Quality Well Being Foundation                         $150,000,000 $150,000,000
    365    Empowering Collective                                  $60,000,000 $20,000,000
-          Low Score                                                                                                  2.86%                                                     $77,813                                                            2.04%                                                      0.11%
-          High Score                                                                                               474.56%                                                  $2,750,000                                                          338.97%                                                      6.23%
-          Average Score                                                                                             39.44%                                                    $950,663                                                           28.42%                                                      0.64%
 
-          Those applications highlighted in "gray" has insufficient information to calculate impact.
-
-
-          Project Output
-          Score of 1 = Less than 20%
-          Score of 2 = 20% to 30%
-          Score of 3 = 30% to 40%
-          Score of 4 = 40% to 50%
-          Score of 5 = 50% or more
-
-          Cost Per Job
-          Score of 1 = $2,500,000 or more
-          Score of 2 = $1,500,000 to $2,499,999
-          Score of 3 = $1,000,000 to $1,499,999
-          Score of 4 = $500,000 to $999,999
-          Score of 5 = Less than $500,000
-
-          Direct Payroll
-          Score of 1 = Less than 10%
-          Score of 2 = 10% to 20%
-          Score of 3 = 20% to 30%
-          Score of 4 = 30% to 40%
-          Score of 5 = 40% or more
-
-          State Income Tax
-          Score of 1 = Under 0.10%
-          Score of 2 = 0.11% to 0.20%
-          Score of 3 = 0.21% to 0.49%
-          Score of 4 = 0.50% to 0.99%
-          Score of 5 = Over 1%
-
