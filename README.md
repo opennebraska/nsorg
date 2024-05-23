@@ -167,12 +167,42 @@ YTWD|10682820.0
 
 ## Dev Notes
 
-ChatGPT 4o prompt:
+### ChatGPT 4o
 
+ChatGPT is a massively hit a miss tool. Sometimes it's helpful (like a web search is),
+sometimes it's just confidently dead wrong and you waste a lot of time trying to get
+anything useful out of it.
+
+```
 Reset context.
 Use Python Pandas dataframes and Seaborn.
 Create a dataframe of 20 Awards of random US Dollar Amounts between $50,000 and $40,000,000.
 Categorize those Awards into 3 categories by US Dollar Amount: "< $100,000", "< $20,000,000", and "> $20,000,000".
 Generate a Seaside stacked bar chart where the X axis is Category and the Y axis is US Dollars.
 Show me that chart.
+```
 
+### pdftotext
+
+When we get really desperate, we use a PDF to text converter, which we then manually edit, import from there.
+
+```
+pdftotext --help
+pdftotext version 24.04.0
+Copyright 2005-2024 The Poppler Developers - http://poppler.freedesktop.org
+Copyright 1996-2011, 2022 Glyph & Cog, LLC
+Usage: pdftotext [options] <PDF-file> [<text-file>]
+
+pdftotext -layout North-and-South-Omaha-Recovery-Grant-Program_Recipients.pdf
+cat North-and-South-Omaha-Recovery-Grant-Program_Recipients.txt | perl -ni -e "s/  +/|/; print"
+
+pdftotext -layout appendix_f.pdf
+cat appendix_f.txt | perl -n -E 'chomp; @l = split / [\s\$]+/; if ($l[1] =~ /^\d+$/) { say join ";", $l[1], $l[2], $l[3], $l[4] }'
+(copy/paste the top list only)
+
+/usr/local/Cellar/python@3.10/3.10.14/bin
+
+brew install gmp
+env "CFLAGS=-I/usr/local/include -L/usr/local/lib" pip3.10 install pycrypto
+pip3.10 install excalibur
+```

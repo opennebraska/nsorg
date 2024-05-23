@@ -19,7 +19,7 @@ pages = [
 pages = ','.join(pages)
 
 # Read tables from a PDF file
-tables = camelot.read_pdf("appendix_f.pdf", pages=pages, split_text=True)
+tables = camelot.read_pdf("appendix_f.pdf", pages="14", split_text=True)
 print("read_pdf() is done")
 i = 0
 for table in tables:
