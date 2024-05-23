@@ -206,223 +206,214 @@ Application                                         Project          Grant      
    370    WS Food Supplies LLC                        $800,000      $400,000      0.50          0.00         1.00     1.00       1.00       0.20      3.70
 
 
-                                                                                  Project Budget   Project
+                                                                                  Project Budget   Project
 Application                                              Project      Grant          vs. Grant     Ranking
   Number      Applicant                                   Cost       Request      Funding Ratio     1 to 5
 
-      4       CB Designs                                   $20,000      $20,000       1.00           1
-      5       Lanrex LLC                                $2,000,000   $2,000,000       1.00           1
-      6       Southern Spoon LLC                         $500,000     $499,999        1.00           1
-      7       Money World Trucking                        $248,000    $248,000        1.00           1
-      8       SC‐3535 LLC                                $208,000     $208,000        1.00           1
-      9       Educando Child Care Center                  $120,000     $120,000       1.00           1
-     10       Lawrence T. Butler                          $538,450     $260,450       2.07           2
-     12       Habitat for Humanity                      $2,915,200   $2,800,000       1.04           1
-     17       Destiny Elevate Excelence LLC                $50,000   $1,000,000       0.05           0
-     18       Styles of Evolution                          $84,548    $319,350        0.26           0
-     19       Elton & Connie Edmond                     $1,667,500   $1,617,500       1.03           1
-     21       Omaha Awakening Center                      $100,000     $100,000       1.00           1
-     22       Coleman Construction Training Institute   $3,500,000   $3,500,000       1.00           1
-     25       Partnership 4 Kids                          $133,750    $133,750        1.00           1
-     27       Notre Dame Housing                         $500,000     $500,000        1.00           1
-     28       Nebraska Early Childhood Collaborative    $4,000,000   $3,250,000       1.23           1
-     29       Ebony Patriot, LLC                         $735,000     $735,000        1.00           1
-     31       Partnership 4 Kids                        $3,858,618   $2,376,800       1.62           1
-     33       Intercultural Senior Center               $2,812,674   $1,175,511       2.39           2
-     34       Habitat for Humanity of Omaha             $3,000,000   $3,000,000       1.00           1
-     35       I Be Black Girl                           $1,300,000     $512,500       2.54           2
-     43       DIBS for Kids                             $1,245,186     $924,186       1.35           1
-     44       City Sprouts                              $2,139,890   $2,139,890       1.00           1
-     45       White Lotus Group                         $2,099,189   $1,384,311       1.52           1
-     50       Women's Center for Advancement            $1,792,436   $1,792,436       1.00           1
-     52       Kids Can Community Center                 $1,821,375   $1,500,000       1.21           1
-     54       Omaha Municipal Land Bank                   $600,000     $600,000       1.00           1
-     58       Omaha Municipal Land Bank                 $4,400,000   $4,400,000       1.00           1
-     61       Edward Breckenridge                         $250,000     $250,000       1.00           1
-     62       Omaha Municipal Land Bank                 $2,400,000   $2,400,000       1.00           1
-     63       Kids Can Community Center                         $0           $0                      0
-     65       Labor of Love Doula Service                  $25,000      $25,000       1.00           1
-     66       Xclusive Entertainment                    $2,000,000   $2,000,000       1.00           1
-     68       Chicken Bucket                              $200,000     $200,000       1.00           1
-70    Rabble Mill                     $2,575,783     $808,773   3.18   3
-72    Boston School of Cosmetology    $1,640,000   $1,500,000   1.09   1
-74    Tate Janitotial                    $69,000      $35,000   1.97   1
-75    Nebraska Startup Academy        $1,200,000   $1,200,000   1.00   1
-76    Neter Enterprise LLC            $4,950,000   $4,950,000   1.00   1
-80    Department of Education            $20,000      $20,000   1.00   1
-87    Coleman Construction Corp.      $2,500,000   $2,500,000   1.00   1
-88    Native Omaha Days                 $350,000 $100,000,000   0.00   0
-90    Pacific Engineering             $1,603,000   $1,603,000   1.00   1
-91    Universal Soldiers              $1,025,000   $2,000,000   0.51   0
-92    Ital Vital Living               $1,821,687   $1,851,687   0.98   0
-93    Ferguson Cooper                         $0   $1,000,000   0.00   0
-94    Kool Kids Day Care                 $90,000      $89,999   1.00   1
-97    WNQ Inc.                        $1,800,000 $10,000,000    0.18   0
-98    Pattys Childcare Center         $1,682,500   $1,500,000   1.12   1
-99    Vaughn & Associates             $3,000,000   $3,000,000   1.00   1
-101   WCDI Consulting                  $470,000     $400,000    1.18   1
-106   Compassion in Action            $2,000,000   $2,000,000   1.00   1
-109   Healthy Housing Omaha           $1,904,740   $1,904,740   1.00   1
-114   Divine Angels                   $3,000,000   $3,000,000   1.00   1
-117   Omaha Data Sciences Academy     $2,875,702   $2,875,702   1.00   1
-118   SAVE Program                      $401,100     $200,000   2.01   2
-119   Black & Pink National           $3,599,190     $500,000   7.20   5
-120   Vaughn & Associates             $3,000,000   $3,000,000   1.00   1
-121   Jones II                          $122,250     $122,250   1.00   1
-125   24‐2 Child Care Center          $2,000,000     $750,000   2.67   2
-126   National Community               $943,292      $900,093   1.05   1
-130   RGRBP‐Legacy Builders           $2,682,000   $1,600,000   1.68   1
-131   Own the Pond                      $150,000     $100,000   1.50   1
-133   Creighton University            $1,500,000   $1,500,000   1.00   1
-139   Descendants of DeWitty, NE         $15,800      $15,800   1.00   1
-140   Well Kept Investments             $400,000     $380,000   1.05   1
-141   Abide                             $175,000     $125,000   1.40   1
-142   JD&P Enterprises                $2,500,000   $2,000,000   1.25   1
-144   Omaha Center for Refuge           $850,000     $850,000   1.00   1
-149   Heartland News                    $400,000     $400,000   1.00   1
-150   Midlands Latino CDC             $1,996,685   $1,996,685   1.00   1
-151   NOC Redevelopment Corporation   $3,700,000   $1,500,000   2.47   2
-154   Midlansa Latino CDC                     $832,235     $832,235    1.00   1
-155   Devine Holdings                       $2,551,000    $2,400,000   1.06   1
-157   Beyond the Basics                     $1,000,000   $10,000,000   0.10   0
-158   Omaha Municipal Land Bank                     $0            $0          0
-159   Kelly's Complete Auto Detailing          $55,000       $75,000   0.73   1
-161   NEWbraska Partners                      $700,000      $500,000   1.40   1
-163   Comunidad Maya Pixam Ixim             $1,450,103    $1,350,103   1.07   1
-169   GESU Housing                          $2,196,101    $1,196,102   1.84   1
-170   NIA Insurance Agency                    $300,000    $7,500,000   0.04   0
-172   Prospect Hill Cemetary                $1,101,264      $848,925   1.30   1
-175   NEWbraska Partners                    $3,600,000    $1,630,000   2.21   2
-176   True Purpose                            $750,000      $750,000   1.00   1
-179   Dean Enterprise                       $1,960,000    $1,960,000   1.00   1
-181   House of Darsa                          $892,955      $892,955   1.00   1
-182   The Ham Sandie Shoppe                  $750,000      $750,000    1.00   1
-184   White Lotus Group                     $2,971,500    $1,110,000   2.68   2
-185   Culxr House                           $2,738,000    $2,738,000   1.00   1
-187   Prosperous Homes                      $1,065,000    $1,000,000   1.07   1
-189   Jammit Security                          $60,000       $80,000   0.75   0
-190   RADIUS                                $3,513,896      $678,545   5.18   5
-195   Ella Belle Café on Wheels               $600,000      $750,000   0.80   1
-196   United Way of Midlands                 $449,000      $448,999    1.00   1
-203   Jim Rib Haven                         $2,000,000    $2,000,000   1.00   1
-205   Po Boy Mega Alley                       $250,000      $152,500   1.64   1
-206   IT&T Trucking                         $1,163,528    $1,163,528   1.00   1
-208   Omaha Association of Black PFF        $3,363,100    $3,213,100   1.05   1
-211   Trauma House of Healing                 $473,000     $473,000    1.00   1
-212   Nmotion Inc.                            $950,000     $950,000    1.00   1
-213   Pattys Childcare Center               $2,000,000    $2,000,000   1.00   1
-215   Tranqual Transformations              $3,084,500    $3,084,500   1.00   1
-218   Midland University                    $3,542,000    $1,425,820   2.48   2
-220   All American Environmental Services     $300,000    $1,000,000   0.30   0
-221   Bonita Sims                             $300,000     $300,000    1.00   1
-222   The Wellbeing Partners                  $228,397      $209,198   1.09   1
-224   Healing Vibes                           $350,000     $349,999    1.00   1
-226   Brown Memorial Study Center           $1,233,000      $830,000   1.49   1
-230   Latsha Griffin                          $100,000     $100,000    1.00   1
-231   King's Landing                        $1,000,000    $1,000,000   1.00   1
-233   Jendaya Frazer 50 Ventures           $1,134,692     $452,760   2.51    2
-235   Ansell Investments                     $275,000      $27,500   10.00   5
-236   The Lund Company                     $4,600,000   $1,500,000   3.07    3
-237   JoDavid Harvis                         $250,000     $200,000   1.25    1
-239   LCS Neighborhood Association          $200,000     $100,600    1.99    1
-240   Lionhead Rentals                     $2,000,000   $2,000,000   1.00    1
-242   SAVE Program                           $250,000     $250,000   1.00    1
-243   National Woman's Volleyball League   $4,000,000   $3,000,000   1.33    1
-247   4urban.org                           $1,800,000     $950,000   1.89    1
-250   Binyard Green Clean                    $619,379    $619,379    1.00    1
-251   Brown Bean Cup of Joe                $1,325,400   $1,325,401   1.00    1
-253   10,000 Fearless M&W                  $4,825,800   $4,825,800   1.00    1
-254   LCS Neighborhood Association          $300,000     $300,000    1.00    1
-256   Still Poppin Gourmet Popcorn         $2,000,000   $1,500,000   1.33    1
-257   Nebraska Union Indian Health           $623,600    $623,600    1.00    1
-259   Men Against Domestic Violence        $2,000,000   $1,594,600   1.25    1
-260   Midlands African Chamber             $2,000,000   $2,000,000   1.00    1
-261   Diversify the Pie                      $694,000     $694,000   1.00    1
-262   Joseph Colony Inc.                     $750,000    $750,000    1.00    1
-265   Cultivating Paths Counseling          $245,494     $300,000    0.82    0
-266   Legacy Demolition                     $315,000     $315,000    1.00    1
-269   SheMate                              $4,000,000   $3,000,000   1.33    1
-270   FBJ Logistics                        $2,000,000   $1,999,999   1.00    1
-272   Ren Mind                             $2,500,000   $1,750,000   1.43    1
-273   Leading Edge Entreprenuer               $60,449      $36,269   1.67    1
-275   Discovery Dream School                $533,000     $533,000    1.00    1
-276   Capture Development                  $2,000,000   $1,000,000   2.00    2
-278   Cali Commons                          $454,715     $734,716    0.62    0
-280   Omaha Documenters                    $1,656,900     $990,000   1.67    1
-281   Big Mama's Kitchen                     $500,000    $500,000    1.00    1
-283   Peace Love Smoothies                  $304,500     $294,500    1.03    1
-284   NEWbraska Partners                     $720,000     $510,000   1.41    1
-285   Results Sports & Fitness             $1,450,000   $1,100,000   1.32    1
-286   North Omaha Architecture                     $0     $250,000   0.00    0
-290   La Casa Del Pueblo                     $642,150    $469,000    1.37    1
-291   Moorish Enterprises                  $2,000,000   $2,000,000   1.00    1
-292   Empowering Kids Academy              $2,600,000   $2,600,000    1.00   1
-295   Purely Sense                         $2,500,000   $2,500,000   1.00    1
-296   Whispering Roots                       $2,769,146   $1,587,116   1.74    1
-297   Mount Moriah Baptist Church            $3,982,875   $3,500,000   1.14    1
-298   The Legacy Empowerment                   $300,000     $150,000   2.00    2
-299   Omaha Community Broadcasting           $2,792,300   $2,792,300   1.00    1
-302   Ybusiness Solutions                     $825,000     $825,000    1.00    1
-304   SA Consulting                           $800,000    $5,000,000   0.16    0
-306   Banister's Leadership Academy          $2,577,500     $100,000   25.78   5
-307   QUEENS Butterfly House                         $0   $1,000,000   0.00    0
-308   Don's Barbershop                         $525,500     $525,500   1.00    1
-309   Binyard LLC                             $899,716      $337,970   2.66    2
-311   Excellence Home Renovation             $3,500,000   $3,500,000   1.00    1
-312   The AIM Institute                        $499,958     $499,958   1.00    1
-313   Demo Lives Multimedia                  $1,000,000     $750,000   1.33    1
-315   Jamilah Johnson                         $145,330     $145,330    1.00    1
-316   Brittany's Balance                       $160,000     $159,997   1.00    1
-317   Jermaine Rucker                          $200,000     $100,000   2.00    2
-318   Omaha Arts Council                     $1,634,000   $1,634,000   1.00    1
-319   No Worries Property Solutions           $300,000     $300,000    1.00    1
-320   Nebraska Urban Indian Health             $636,215     $636,215   1.00    1
-321   Spotlight Comedy House                   $400,000     $400,000   1.00    1
-322   Jerry Johnson                             $92,080      $92,079   1.00    1
-325   Valentine‐Shirley LLC                  $3,500,000   $3,000,000   1.17    1
-326   Carnation Place                        $1,500,000   $1,500,000    1.00   1
-327   Aleeca's Sugar Shoppe                  $3,000,000   $2,975,000   1.01    1
-328   Edmonson Youth Outreach                  $700,000     $699,996   1.00    1
-330   North Omaha Community Partnership      $3,170,000   $3,170,000   1.00    1
-331   The Creative Impulse                     $673,608     $673,608   1.00    1
-333   Destiny Café                             $754,500     $700,000   1.08    1
-335   Leaders to Legends                     $4,000,000   $2,000,000   2.00    2
-337   East African Development Association   $1,300,000   $1,300,000   1.00    1
-338   Ivy League Youth Sports Academy          $800,000   $1,000,000   0.80    0
-339   Natasha L. Coanner                     $1,300,000   $1,300,000   1.00    1
-340   Ontic Properties                       $4,150,000   $3,550,000   1.17    1
-342   Skatefest Omaha                        $2,114,880   $2,114,880   1.00    1
-343   Elisha Rodriguez                       $2,850,000     $560,000   5.09    5
-344   Accessory Homes                        $2,344,418   $2,344,418   1.00    1
-345   1st Sky Omaha                          $3,949,900   $1,844,300   2.14    2
-347   Charmaine Morton                       $1,000,000     $100,000   10.00   5
-348   DGM Fitness Studio              $800,000    $800,000     1.00   1
-350   Davie's Dojo                    $799,500     $623,500    1.28   1
-351   National Community            $1,990,093   $1,946,894    1.02   1
-352   Heartland Workers Center      $1,598,574   $1,398,574    1.14   1
-357   Roofs, Walls & All            $3,000,000   $2,999,997    1.00   1
-358   Bobby Byars Foundation        $1,123,000   $1,123,000    1.00   1
-359   1966                            $350,000     $300,000    1.17   1
-360   Complete Technologies         $2,123,094   $1,416,094    1.50   1
-362   Legacy Staff Solutions        $1,715,000   $1,715,000    1.00   1
-363   Scholarship Fund              $2,500,000   $2,500,000    1.00   1
-364   Mentoring Plus                  $281,351     $281,351    1.00   1
-366   CC Visions LLC                $1,689,482   $1,581,382    1.07   1
-367   Historic North Omaha Center   $3,000,000   $3,000,000    1.00   1
-368   Guiding Light Foundation       $357,920     $357,920     1.00   1
-369   Treadstone Activity Center      $771,163     $771,163    1.00   1
-370   WS Food Supplies LLC            $800,000     $400,000    2.00   2
-      Low Score                                                1.00
-      High Score                                              10.00
-      Average Score                                            1.43
+      4    CB Designs                                   $20,000      $20,000    1.00           1
+      5    Lanrex LLC                                $2,000,000   $2,000,000    1.00           1
+      6    Southern Spoon LLC                          $500,000     $499,999    1.00           1
+      7    Money World Trucking                        $248,000     $248,000    1.00           1
+      8    SC‐3535 LLC                                 $208,000     $208,000    1.00           1
+      9    Educando Child Care Center                  $120,000     $120,000    1.00           1
+     10    Lawrence T. Butler                          $538,450     $260,450    2.07           2
+     12    Habitat for Humanity                      $2,915,200   $2,800,000    1.04           1
+     17    Destiny Elevate Excelence LLC                $50,000   $1,000,000    0.05           0
+     18    Styles of Evolution                          $84,548     $319,350    0.26           0
+     19    Elton & Connie Edmond                     $1,667,500   $1,617,500    1.03           1
+     21    Omaha Awakening Center                      $100,000     $100,000    1.00           1
+     22    Coleman Construction Training Institute   $3,500,000   $3,500,000    1.00           1
+     25    Partnership 4 Kids                          $133,750     $133,750    1.00           1
+     27    Notre Dame Housing                          $500,000     $500,000    1.00           1
+     28    Nebraska Early Childhood Collaborative    $4,000,000   $3,250,000    1.23           1
+     29    Ebony Patriot, LLC                          $735,000     $735,000    1.00           1
+     31    Partnership 4 Kids                        $3,858,618   $2,376,800    1.62           1
+     33    Intercultural Senior Center               $2,812,674   $1,175,511    2.39           2
+     34    Habitat for Humanity of Omaha             $3,000,000   $3,000,000    1.00           1
+     35    I Be Black Girl                           $1,300,000     $512,500    2.54           2
+     43    DIBS for Kids                             $1,245,186     $924,186    1.35           1
+     44    City Sprouts                              $2,139,890   $2,139,890    1.00           1
+     45    White Lotus Group                         $2,099,189   $1,384,311    1.52           1
+     50    Women's Center for Advancement            $1,792,436   $1,792,436    1.00           1
+     52    Kids Can Community Center                 $1,821,375   $1,500,000    1.21           1
+     54    Omaha Municipal Land Bank                   $600,000     $600,000    1.00           1
+     58    Omaha Municipal Land Bank                 $4,400,000   $4,400,000    1.00           1
+     61    Edward Breckenridge                         $250,000     $250,000    1.00           1
+     62    Omaha Municipal Land Bank                 $2,400,000   $2,400,000    1.00           1
+     63    Kids Can Community Center                         $0           $0       0           0
+     65    Labor of Love Doula Service                  $25,000      $25,000    1.00           1
+     66    Xclusive Entertainment                    $2,000,000   $2,000,000    1.00           1
+     68    Chicken Bucket                              $200,000     $200,000    1.00           1
+     70    Rabble Mill                               $2,575,783     $808,773    3.18           3
+     72    Boston School of Cosmetology              $1,640,000   $1,500,000    1.09           1
+     74    Tate Janitotial                              $69,000      $35,000    1.97           1
+     75    Nebraska Startup Academy                  $1,200,000   $1,200,000    1.00           1
+     76    Neter Enterprise LLC                      $4,950,000   $4,950,000    1.00           1
+     80    Department of Education                      $20,000      $20,000    1.00           1
+     87    Coleman Construction Corp.                $2,500,000   $2,500,000    1.00           1
+     88    Native Omaha Days                           $350,000 $100,000,000    0.00           0
+     90    Pacific Engineering                       $1,603,000   $1,603,000    1.00           1
+     91    Universal Soldiers                        $1,025,000   $2,000,000    0.51           0
+     92    Ital Vital Living                         $1,821,687   $1,851,687    0.98           0
+     93    Ferguson Cooper                                   $0   $1,000,000    0.00           0
+     94    Kool Kids Day Care                           $90,000      $89,999    1.00           1
+     97    WNQ Inc.                                  $1,800,000  $10,000,000    0.18           0
+     98    Pattys Childcare Center                   $1,682,500   $1,500,000    1.12           1
+     99    Vaughn & Associates                       $3,000,000   $3,000,000    1.00           1
+     101   WCDI Consulting                             $470,000     $400,000    1.18           1
+     106   Compassion in Action                      $2,000,000   $2,000,000    1.00           1
+     109   Healthy Housing Omaha                     $1,904,740   $1,904,740    1.00           1
+     114   Divine Angels                             $3,000,000   $3,000,000    1.00           1
+     117   Omaha Data Sciences Academy               $2,875,702   $2,875,702    1.00           1
+     118   SAVE Program                                $401,100     $200,000    2.01           2
+     119   Black & Pink National                     $3,599,190     $500,000    7.20           5
+     120   Vaughn & Associates                       $3,000,000   $3,000,000    1.00           1
+     121   Jones II                                    $122,250     $122,250    1.00           1
+     125   24‐2 Child Care Center                    $2,000,000     $750,000    2.67           2
+     126   National Community                          $943,292     $900,093    1.05           1
+     130   RGRBP‐Legacy Builders                     $2,682,000   $1,600,000    1.68           1
+     131   Own the Pond                                $150,000     $100,000    1.50           1
+     133   Creighton University                      $1,500,000   $1,500,000    1.00           1
+     139   Descendants of DeWitty, NE                   $15,800      $15,800    1.00           1
+     140   Well Kept Investments                       $400,000     $380,000    1.05           1
+     141   Abide                                       $175,000     $125,000    1.40           1
+     142   JD&P Enterprises                          $2,500,000   $2,000,000    1.25           1
+     144   Omaha Center for Refuge                     $850,000     $850,000    1.00           1
+     149   Heartland News                              $400,000     $400,000    1.00           1
+     150   Midlands Latino CDC                       $1,996,685   $1,996,685    1.00           1
+     151   NOC Redevelopment Corporation             $3,700,000   $1,500,000    2.47           2
+     154   Midlansa Latino CDC                         $832,235     $832,235    1.00           1
+     155   Devine Holdings                           $2,551,000   $2,400,000    1.06           1
+     157   Beyond the Basics                         $1,000,000  $10,000,000    0.10           0
+     158   Omaha Municipal Land Bank                         $0           $0       0           0
+     159   Kelly's Complete Auto Detailing              $55,000      $75,000    0.73           1
+     161   NEWbraska Partners                          $700,000     $500,000    1.40           1
+     163   Comunidad Maya Pixam Ixim                 $1,450,103   $1,350,103    1.07           1
+     169   GESU Housing                              $2,196,101   $1,196,102    1.84           1
+     170   NIA Insurance Agency                        $300,000   $7,500,000    0.04           0
+     172   Prospect Hill Cemetary                    $1,101,264     $848,925    1.30           1
+     175   NEWbraska Partners                        $3,600,000   $1,630,000    2.21           2
+     176   True Purpose                                $750,000     $750,000    1.00           1
+     179   Dean Enterprise                           $1,960,000   $1,960,000    1.00           1
+     181   House of Darsa                              $892,955     $892,955    1.00           1
+     182   The Ham Sandie Shoppe                       $750,000     $750,000    1.00           1
+     184   White Lotus Group                         $2,971,500   $1,110,000    2.68           2
+     185   Culxr House                               $2,738,000   $2,738,000    1.00           1
+     187   Prosperous Homes                          $1,065,000   $1,000,000    1.07           1
+     189   Jammit Security                              $60,000      $80,000    0.75           0
+     190   RADIUS                                    $3,513,896     $678,545    5.18           5
+     195   Ella Belle Café on Wheels                   $600,000     $750,000    0.80           1
+     196   United Way of Midlands                      $449,000     $448,999    1.00           1
+     203   Jim Rib Haven                             $2,000,000   $2,000,000    1.00           1
+     205   Po Boy Mega Alley                           $250,000     $152,500    1.64           1
+     206   IT&T Trucking                             $1,163,528   $1,163,528    1.00           1
+     208   Omaha Association of Black PFF            $3,363,100   $3,213,100    1.05           1
+     211   Trauma House of Healing                     $473,000     $473,000    1.00           1
+     212   Nmotion Inc.                                $950,000     $950,000    1.00           1
+     213   Pattys Childcare Center                   $2,000,000   $2,000,000    1.00           1
+     215   Tranqual Transformations                  $3,084,500   $3,084,500    1.00           1
+     218   Midland University                        $3,542,000   $1,425,820    2.48           2
+     220   All American Environmental Services         $300,000   $1,000,000    0.30           0
+     221   Bonita Sims                                 $300,000     $300,000    1.00           1
+     222   The Wellbeing Partners                      $228,397     $209,198    1.09           1
+     224   Healing Vibes                               $350,000     $349,999    1.00           1
+     226   Brown Memorial Study Center               $1,233,000     $830,000    1.49           1
+     230   Latsha Griffin                              $100,000     $100,000    1.00           1
+     231   King's Landing                            $1,000,000   $1,000,000    1.00           1
+     233   Jendaya Frazer 50 Ventures                $1,134,692     $452,760    2.51           2
+     235   Ansell Investments                          $275,000      $27,500   10.00           5
+     236   The Lund Company                          $4,600,000   $1,500,000    3.07           3
+     237   JoDavid Harvis                              $250,000     $200,000    1.25           1
+     239   LCS Neighborhood Association                $200,000     $100,600    1.99           1
+     240   Lionhead Rentals                          $2,000,000   $2,000,000    1.00           1
+     242   SAVE Program                                $250,000     $250,000    1.00           1
+     243   National Woman's Volleyball League        $4,000,000   $3,000,000    1.33           1
+     247   4urban.org                                $1,800,000     $950,000    1.89           1
+     250   Binyard Green Clean                         $619,379     $619,379    1.00           1
+     251   Brown Bean Cup of Joe                     $1,325,400   $1,325,401    1.00           1
+     253   10,000 Fearless M&W                       $4,825,800   $4,825,800    1.00           1
+     254   LCS Neighborhood Association                $300,000     $300,000    1.00           1
+     256   Still Poppin Gourmet Popcorn              $2,000,000   $1,500,000    1.33           1
+     257   Nebraska Union Indian Health                $623,600     $623,600    1.00           1
+     259   Men Against Domestic Violence             $2,000,000   $1,594,600    1.25           1
+     260   Midlands African Chamber                  $2,000,000   $2,000,000    1.00           1
+     261   Diversify the Pie                           $694,000     $694,000    1.00           1
+     262   Joseph Colony Inc.                          $750,000     $750,000    1.00           1
+     265   Cultivating Paths Counseling                $245,494     $300,000    0.82           0
+     266   Legacy Demolition                           $315,000     $315,000    1.00           1
+     269   SheMate                                   $4,000,000   $3,000,000    1.33           1
+     270   FBJ Logistics                             $2,000,000   $1,999,999    1.00           1
+     272   Ren Mind                                  $2,500,000   $1,750,000    1.43           1
+     273   Leading Edge Entreprenuer                    $60,449      $36,269    1.67           1
+     275   Discovery Dream School                      $533,000     $533,000    1.00           1
+     276   Capture Development                       $2,000,000   $1,000,000    2.00           2
+     278   Cali Commons                                $454,715     $734,716    0.62           0
+     280   Omaha Documenters                         $1,656,900     $990,000    1.67           1
+     281   Big Mama's Kitchen                          $500,000     $500,000    1.00           1
+     283   Peace Love Smoothies                        $304,500     $294,500    1.03           1
+     284   NEWbraska Partners                          $720,000     $510,000    1.41           1
+     285   Results Sports & Fitness                  $1,450,000   $1,100,000    1.32           1
+     286   North Omaha Architecture                          $0     $250,000    0.00           0
+     290   La Casa Del Pueblo                          $642,150     $469,000    1.37           1
+     291   Moorish Enterprises                       $2,000,000   $2,000,000    1.00           1
+     292   Empowering Kids Academy                   $2,600,000   $2,600,000    1.00           1
+     295   Purely Sense                              $2,500,000   $2,500,000    1.00           1
+     296   Whispering Roots                          $2,769,146   $1,587,116    1.74           1
+     297   Mount Moriah Baptist Church               $3,982,875   $3,500,000    1.14           1
+     298   The Legacy Empowerment                      $300,000     $150,000    2.00           2
+     299   Omaha Community Broadcasting              $2,792,300   $2,792,300    1.00           1
+     302   Ybusiness Solutions                         $825,000     $825,000    1.00           1
+     304   SA Consulting                               $800,000   $5,000,000    0.16           0
+     306   Banister's Leadership Academy             $2,577,500     $100,000   25.78           5
+     307   QUEENS Butterfly House                            $0   $1,000,000    0.00           0
+     308   Don's Barbershop                            $525,500     $525,500    1.00           1
+     309   Binyard LLC                                 $899,716     $337,970    2.66           2
+     311   Excellence Home Renovation                $3,500,000   $3,500,000    1.00           1
+     312   The AIM Institute                           $499,958     $499,958    1.00           1
+     313   Demo Lives Multimedia                     $1,000,000     $750,000    1.33           1
+     315   Jamilah Johnson                             $145,330     $145,330    1.00           1
+     316   Brittany's Balance                          $160,000     $159,997    1.00           1
+     317   Jermaine Rucker                             $200,000     $100,000    2.00           2
+     318   Omaha Arts Council                        $1,634,000   $1,634,000    1.00           1
+     319   No Worries Property Solutions               $300,000     $300,000    1.00           1
+     320   Nebraska Urban Indian Health                $636,215     $636,215    1.00           1
+     321   Spotlight Comedy House                      $400,000     $400,000    1.00           1
+     322   Jerry Johnson                                $92,080      $92,079    1.00           1
+     325   Valentine‐Shirley LLC                     $3,500,000   $3,000,000    1.17           1
+     326   Carnation Place                           $1,500,000   $1,500,000    1.00           1
+     327   Aleeca's Sugar Shoppe                     $3,000,000   $2,975,000    1.01           1
+     328   Edmonson Youth Outreach                     $700,000     $699,996    1.00           1
+     330   North Omaha Community Partnership         $3,170,000   $3,170,000    1.00           1
+     331   The Creative Impulse                        $673,608     $673,608    1.00           1
+     333   Destiny Café                                $754,500     $700,000    1.08           1
+     335   Leaders to Legends                        $4,000,000   $2,000,000    2.00           2
+     337   East African Development Association      $1,300,000   $1,300,000    1.00           1
+     338   Ivy League Youth Sports Academy             $800,000   $1,000,000    0.80           0
+     339   Natasha L. Coanner                        $1,300,000   $1,300,000    1.00           1
+     340   Ontic Properties                          $4,150,000   $3,550,000    1.17           1
+     342   Skatefest Omaha                           $2,114,880   $2,114,880    1.00           1
+     343   Elisha Rodriguez                          $2,850,000     $560,000    5.09           5
+     344   Accessory Homes                           $2,344,418   $2,344,418    1.00           1
+     345   1st Sky Omaha                             $3,949,900   $1,844,300    2.14           2
+     347   Charmaine Morton                          $1,000,000     $100,000   10.00           5
+     348   DGM Fitness Studio                          $800,000     $800,000    1.00           1
+     350   Davie's Dojo                                $799,500     $623,500    1.28           1
+     351   National Community                        $1,990,093   $1,946,894    1.02           1
+     352   Heartland Workers Center                  $1,598,574   $1,398,574    1.14           1
+     357   Roofs, Walls & All                        $3,000,000   $2,999,997    1.00           1
+     358   Bobby Byars Foundation                    $1,123,000   $1,123,000    1.00           1
+     359   1966                                        $350,000     $300,000    1.17           1
+     360   Complete Technologies                     $2,123,094   $1,416,094    1.50           1
+     362   Legacy Staff Solutions                    $1,715,000   $1,715,000    1.00           1
+     363   Scholarship Fund                          $2,500,000   $2,500,000    1.00           1
+     364   Mentoring Plus                              $281,351     $281,351    1.00           1
+     366   CC Visions LLC                            $1,689,482   $1,581,382    1.07           1
+     367   Historic North Omaha Center               $3,000,000   $3,000,000    1.00           1
+     368   Guiding Light Foundation                    $357,920     $357,920    1.00           1
+     369   Treadstone Activity Center                  $771,163     $771,163    1.00           1
+     370   WS Food Supplies LLC                        $800,000     $400,000    2.00           2
 
-      Score of 0 = Below 1.00
-      Score of 1 = 1.00 to 1.99
-      Score of 2 = 2.00 to 2.99
-      Score of 3 = 3.00 to 3.99
-      Score of 4 = 4.00 to 4.99
-      Score of 5 = 5.00 or more
-                                                                                                                   Jobs                                       Grant vs.    Direct                                  Grant vs.    State    Average
+
 Application                                           Grant       Construction Jobs                  Cost Per    Creation   Construction Payroll               Direct     Payroll   State Income Taxes              Direct       Tax      Total
  Number Applicant                                    Request      Direct    Indirect   Total        Direct Job   Ranking     Direct     Indirect   Total       Payroll    Ranking   Direct    Indirect   Total      Taxes      Ranking    Score
 
