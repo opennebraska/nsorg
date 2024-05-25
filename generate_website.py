@@ -9,6 +9,7 @@ import sqlite3
 # A Python implementation of Liquid, the safe customer-facing template language for flexible web apps.
 from liquid import Environment
 from liquid import FileSystemLoader
+import shutil
 
 env = Environment(loader=FileSystemLoader("templates/"))
 
@@ -203,6 +204,7 @@ with open('_site/index.html', 'w') as f:
   f.write(
     template.render(site)
   )
+shutil.copyfile("opennebraska.jpg", "_site/opennebraska.jpg")
 
 site = {
   "title": site['title'],
